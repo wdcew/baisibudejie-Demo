@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  百思不得姐
+//
+//  Created by 高冠东 on 7/12/16.
+//  Copyright © 2016 高冠东. All rights reserved.
+
+//该 pch文件 已经添加到  build settings -- combined --Apple LLVM 7.1 - Language ---Prefix Header
+
+//在此 PCH 文件中封装 整个APP 架构都需要用到的宏
+
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/**
+ *  DEBUG  宏 是被定义在 build settings --- apple LLVM 7.1 -Preprocessing -preprocess Macros 中
+ */
+
+
+#ifdef DEBUG //DEBUG模式下启用的宏
+#define GDNSLog(...) NSLog(__VA_ARGS__)
+
+/**
+ *  颜色
+ */
+#endif
+
+#import "GDNavigationController.h"
+#import "GDBaseViewController.h"
+#import "UIView+GDViewExtension.h"
+
+#define GDColorA(r,g,b,a) [UIColor colorWithRed:(r)/255 green:(g)/255 blue:(b)/255 alpha:(a)/255]
+#define GDColor(R,G,B) GDColorA((R),(G),(B),255)
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

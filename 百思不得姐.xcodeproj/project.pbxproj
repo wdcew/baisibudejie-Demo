@@ -9,13 +9,29 @@
 /* Begin PBXBuildFile section */
 		4C411BC07A701D9093AD7563 /* libPods-百思不得姐Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1BC2B2FB72B31AEC0660A1 /* libPods-百思不得姐Tests.a */; };
 		607B8C63B18CB534E08A0F62 /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E503F18173BF98E05488EE /* libPods-百思不得姐.a */; };
-		904C65151D36091A00E7D034 /* GDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 904C65141D36091A00E7D034 /* GDTabBar.m */; };
-		904C651C1D362F6800E7D034 /* UIView+GDViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 904C651B1D362F6800E7D034 /* UIView+GDViewExtension.m */; };
-		905AC5F01D351DED002D7F19 /* GDTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AC5EF1D351DED002D7F19 /* GDTabbarController.m */; };
-		909BC3191D34CE7D00AA16ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 909BC3181D34CE7D00AA16ED /* main.m */; };
-		909BC31C1D34CE7D00AA16ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 909BC31B1D34CE7D00AA16ED /* AppDelegate.m */; };
-		909BC3221D34CE7D00AA16ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909BC3201D34CE7D00AA16ED /* Main.storyboard */; };
-		909BC3241D34CE7D00AA16ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909BC3231D34CE7D00AA16ED /* Assets.xcassets */; };
+		904401941D366D480052A514 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401741D366D480052A514 /* AppDelegate.m */; };
+		904401951D366D480052A514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904401751D366D480052A514 /* Assets.xcassets */; };
+		904401961D366D480052A514 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904401761D366D480052A514 /* LaunchScreen.storyboard */; };
+		904401981D366D480052A514 /* GDEssenceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044017C1D366D480052A514 /* GDEssenceModel.m */; };
+		904401991D366D480052A514 /* GDEssenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044017E1D366D480052A514 /* GDEssenceView.m */; };
+		9044019A1D366D480052A514 /* GDEssenceViewContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401801D366D480052A514 /* GDEssenceViewContrller.m */; };
+		9044019B1D366D480052A514 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 904401821D366D480052A514 /* Info.plist */; };
+		9044019C1D366D480052A514 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401831D366D480052A514 /* main.m */; };
+		9044019D1D366D480052A514 /* GDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401891D366D480052A514 /* GDBaseViewController.m */; };
+		9044019E1D366D480052A514 /* GDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044018B1D366D480052A514 /* GDNavigationController.m */; };
+		9044019F1D366D480052A514 /* UIView+GDViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044018D1D366D480052A514 /* UIView+GDViewExtension.m */; };
+		904401A01D366D480052A514 /* GDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401911D366D480052A514 /* GDTabBar.m */; };
+		904401A11D366D480052A514 /* GDTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401931D366D480052A514 /* GDTabbarController.m */; };
+		904401A41D366EC00052A514 /* GDFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401A31D366EC00052A514 /* GDFriendViewController.m */; };
+		904401A71D366ECA0052A514 /* GDFriendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401A61D366ECA0052A514 /* GDFriendView.m */; };
+		904401AA1D366EDA0052A514 /* GDFriendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401A91D366EDA0052A514 /* GDFriendModel.m */; };
+		904401AD1D366EF00052A514 /* GDMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401AC1D366EF00052A514 /* GDMeViewController.m */; };
+		904401B01D366EFC0052A514 /* GDMeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401AF1D366EFC0052A514 /* GDMeView.m */; };
+		904401B31D366F440052A514 /* GDMeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401B21D366F440052A514 /* GDMeModel.m */; };
+		904401B61D366F540052A514 /* GDNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401B51D366F540052A514 /* GDNewViewController.m */; };
+		904401B91D366F640052A514 /* GDNewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401B81D366F640052A514 /* GDNewView.m */; };
+		904401BC1D366F6E0052A514 /* GDNewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401BB1D366F6E0052A514 /* GDNewModel.m */; };
+		905CA3201D38AB3A00DE4833 /* GDNewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905CA31F1D38AB3A00DE4833 /* GDNewView.xib */; };
 		909BC3321D34CE7D00AA16ED /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 909BC3311D34CE7D00AA16ED /* _____Tests.m */; };
 		909BC33D1D34CE7D00AA16ED /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 909BC33C1D34CE7D00AA16ED /* _____UITests.m */; };
 		B4425132445C408D86EE3716 /* libPods-百思不得姐UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2F7B47B4F719D800036C64 /* libPods-百思不得姐UITests.a */; };
@@ -43,20 +59,49 @@
 		620A0E08BA0C98B00A0056F0 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 		8326036C5D7FF074BE3C05F5 /* Pods-百思不得姐Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐Tests/Pods-百思不得姐Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C1BC2B2FB72B31AEC0660A1 /* libPods-百思不得姐Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		904C65121D35345900E7D034 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		904C65131D36091A00E7D034 /* GDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTabBar.h; sourceTree = "<group>"; };
-		904C65141D36091A00E7D034 /* GDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTabBar.m; sourceTree = "<group>"; };
-		904C651A1D362F6800E7D034 /* UIView+GDViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GDViewExtension.h"; sourceTree = "<group>"; };
-		904C651B1D362F6800E7D034 /* UIView+GDViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GDViewExtension.m"; sourceTree = "<group>"; };
-		905AC5EE1D351DED002D7F19 /* GDTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTabbarController.h; sourceTree = "<group>"; };
-		905AC5EF1D351DED002D7F19 /* GDTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTabbarController.m; sourceTree = "<group>"; };
+		904401731D366D480052A514 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		904401741D366D480052A514 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		904401751D366D480052A514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		904401771D366D480052A514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9044017B1D366D480052A514 /* GDEssenceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDEssenceModel.h; sourceTree = "<group>"; };
+		9044017C1D366D480052A514 /* GDEssenceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDEssenceModel.m; sourceTree = "<group>"; };
+		9044017D1D366D480052A514 /* GDEssenceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDEssenceView.h; sourceTree = "<group>"; };
+		9044017E1D366D480052A514 /* GDEssenceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDEssenceView.m; sourceTree = "<group>"; };
+		9044017F1D366D480052A514 /* GDEssenceViewContrller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDEssenceViewContrller.h; sourceTree = "<group>"; };
+		904401801D366D480052A514 /* GDEssenceViewContrller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDEssenceViewContrller.m; sourceTree = "<group>"; };
+		904401821D366D480052A514 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		904401831D366D480052A514 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
+		904401881D366D480052A514 /* GDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDBaseViewController.h; sourceTree = "<group>"; };
+		904401891D366D480052A514 /* GDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDBaseViewController.m; sourceTree = "<group>"; };
+		9044018A1D366D480052A514 /* GDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDNavigationController.h; sourceTree = "<group>"; };
+		9044018B1D366D480052A514 /* GDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDNavigationController.m; sourceTree = "<group>"; };
+		9044018C1D366D480052A514 /* UIView+GDViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GDViewExtension.h"; sourceTree = "<group>"; };
+		9044018D1D366D480052A514 /* UIView+GDViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GDViewExtension.m"; sourceTree = "<group>"; };
+		9044018E1D366D480052A514 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		904401901D366D480052A514 /* GDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTabBar.h; sourceTree = "<group>"; };
+		904401911D366D480052A514 /* GDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTabBar.m; sourceTree = "<group>"; };
+		904401921D366D480052A514 /* GDTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTabbarController.h; sourceTree = "<group>"; };
+		904401931D366D480052A514 /* GDTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTabbarController.m; sourceTree = "<group>"; };
+		904401A21D366EC00052A514 /* GDFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDFriendViewController.h; sourceTree = "<group>"; };
+		904401A31D366EC00052A514 /* GDFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDFriendViewController.m; sourceTree = "<group>"; };
+		904401A51D366ECA0052A514 /* GDFriendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDFriendView.h; sourceTree = "<group>"; };
+		904401A61D366ECA0052A514 /* GDFriendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDFriendView.m; sourceTree = "<group>"; };
+		904401A81D366EDA0052A514 /* GDFriendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDFriendModel.h; sourceTree = "<group>"; };
+		904401A91D366EDA0052A514 /* GDFriendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDFriendModel.m; sourceTree = "<group>"; };
+		904401AB1D366EF00052A514 /* GDMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMeViewController.h; sourceTree = "<group>"; };
+		904401AC1D366EF00052A514 /* GDMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMeViewController.m; sourceTree = "<group>"; };
+		904401AE1D366EFC0052A514 /* GDMeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMeView.h; sourceTree = "<group>"; };
+		904401AF1D366EFC0052A514 /* GDMeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMeView.m; sourceTree = "<group>"; };
+		904401B11D366F440052A514 /* GDMeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMeModel.h; sourceTree = "<group>"; };
+		904401B21D366F440052A514 /* GDMeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMeModel.m; sourceTree = "<group>"; };
+		904401B41D366F540052A514 /* GDNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDNewViewController.h; sourceTree = "<group>"; };
+		904401B51D366F540052A514 /* GDNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDNewViewController.m; sourceTree = "<group>"; };
+		904401B71D366F640052A514 /* GDNewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDNewView.h; sourceTree = "<group>"; };
+		904401B81D366F640052A514 /* GDNewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDNewView.m; sourceTree = "<group>"; };
+		904401BA1D366F6E0052A514 /* GDNewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDNewModel.h; sourceTree = "<group>"; };
+		904401BB1D366F6E0052A514 /* GDNewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDNewModel.m; sourceTree = "<group>"; };
+		905CA31F1D38AB3A00DE4833 /* GDNewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDNewView.xib; sourceTree = "<group>"; };
 		909BC3141D34CE7D00AA16ED /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		909BC3181D34CE7D00AA16ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		909BC31A1D34CE7D00AA16ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		909BC31B1D34CE7D00AA16ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		909BC3211D34CE7D00AA16ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		909BC3231D34CE7D00AA16ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		909BC3281D34CE7D00AA16ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		909BC32D1D34CE7D00AA16ED /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		909BC3311D34CE7D00AA16ED /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
 		909BC3331D34CE7D00AA16ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,25 +143,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		906E34431D34D1BE003C294B /* classes */ = {
+		904401721D366D480052A514 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
-				909BC31A1D34CE7D00AA16ED /* AppDelegate.h */,
-				909BC31B1D34CE7D00AA16ED /* AppDelegate.m */,
-				905AC5EE1D351DED002D7F19 /* GDTabbarController.h */,
-				905AC5EF1D351DED002D7F19 /* GDTabbarController.m */,
-				904C65131D36091A00E7D034 /* GDTabBar.h */,
-				904C65141D36091A00E7D034 /* GDTabBar.m */,
-				904C651A1D362F6800E7D034 /* UIView+GDViewExtension.h */,
-				904C651B1D362F6800E7D034 /* UIView+GDViewExtension.m */,
+				9044017A1D366D480052A514 /* Essence */,
+				904401811D366D480052A514 /* friend */,
+				904401841D366D480052A514 /* me */,
+				904401851D366D480052A514 /* new */,
+				9044018F1D366D480052A514 /* tabbarController */,
+				904401861D366D480052A514 /* ohter */,
 			);
-			name = classes;
+			path = "百思不得姐";
+			sourceTree = "<group>";
+		};
+		9044017A1D366D480052A514 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				9044017B1D366D480052A514 /* GDEssenceModel.h */,
+				9044017C1D366D480052A514 /* GDEssenceModel.m */,
+				9044017D1D366D480052A514 /* GDEssenceView.h */,
+				9044017E1D366D480052A514 /* GDEssenceView.m */,
+				9044017F1D366D480052A514 /* GDEssenceViewContrller.h */,
+				904401801D366D480052A514 /* GDEssenceViewContrller.m */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		904401811D366D480052A514 /* friend */ = {
+			isa = PBXGroup;
+			children = (
+				904401A21D366EC00052A514 /* GDFriendViewController.h */,
+				904401A31D366EC00052A514 /* GDFriendViewController.m */,
+				904401A51D366ECA0052A514 /* GDFriendView.h */,
+				904401A61D366ECA0052A514 /* GDFriendView.m */,
+				904401A81D366EDA0052A514 /* GDFriendModel.h */,
+				904401A91D366EDA0052A514 /* GDFriendModel.m */,
+			);
+			path = friend;
+			sourceTree = "<group>";
+		};
+		904401841D366D480052A514 /* me */ = {
+			isa = PBXGroup;
+			children = (
+				904401AB1D366EF00052A514 /* GDMeViewController.h */,
+				904401AC1D366EF00052A514 /* GDMeViewController.m */,
+				904401AE1D366EFC0052A514 /* GDMeView.h */,
+				904401AF1D366EFC0052A514 /* GDMeView.m */,
+				904401B11D366F440052A514 /* GDMeModel.h */,
+				904401B21D366F440052A514 /* GDMeModel.m */,
+			);
+			path = me;
+			sourceTree = "<group>";
+		};
+		904401851D366D480052A514 /* new */ = {
+			isa = PBXGroup;
+			children = (
+				904401B41D366F540052A514 /* GDNewViewController.h */,
+				904401B51D366F540052A514 /* GDNewViewController.m */,
+				905CA31F1D38AB3A00DE4833 /* GDNewView.xib */,
+				904401B71D366F640052A514 /* GDNewView.h */,
+				904401B81D366F640052A514 /* GDNewView.m */,
+				904401BA1D366F6E0052A514 /* GDNewModel.h */,
+				904401BB1D366F6E0052A514 /* GDNewModel.m */,
+			);
+			path = new;
+			sourceTree = "<group>";
+		};
+		904401861D366D480052A514 /* ohter */ = {
+			isa = PBXGroup;
+			children = (
+				904401871D366D480052A514 /* baseClass */,
+				904401731D366D480052A514 /* AppDelegate.h */,
+				904401741D366D480052A514 /* AppDelegate.m */,
+				904401751D366D480052A514 /* Assets.xcassets */,
+				904401761D366D480052A514 /* LaunchScreen.storyboard */,
+				904401821D366D480052A514 /* Info.plist */,
+				904401831D366D480052A514 /* main.m */,
+				9044018E1D366D480052A514 /* PrefixHeader.pch */,
+			);
+			path = ohter;
+			sourceTree = "<group>";
+		};
+		904401871D366D480052A514 /* baseClass */ = {
+			isa = PBXGroup;
+			children = (
+				904401881D366D480052A514 /* GDBaseViewController.h */,
+				904401891D366D480052A514 /* GDBaseViewController.m */,
+				9044018A1D366D480052A514 /* GDNavigationController.h */,
+				9044018B1D366D480052A514 /* GDNavigationController.m */,
+				9044018C1D366D480052A514 /* UIView+GDViewExtension.h */,
+				9044018D1D366D480052A514 /* UIView+GDViewExtension.m */,
+			);
+			path = baseClass;
+			sourceTree = "<group>";
+		};
+		9044018F1D366D480052A514 /* tabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				904401901D366D480052A514 /* GDTabBar.h */,
+				904401911D366D480052A514 /* GDTabBar.m */,
+				904401921D366D480052A514 /* GDTabbarController.h */,
+				904401931D366D480052A514 /* GDTabbarController.m */,
+			);
+			name = tabbarController;
+			path = ohter/tabbarController;
 			sourceTree = "<group>";
 		};
 		909BC30B1D34CE7D00AA16ED = {
 			isa = PBXGroup;
 			children = (
-				909BC3161D34CE7D00AA16ED /* 百思不得姐 */,
+				904401721D366D480052A514 /* 百思不得姐 */,
 				909BC3301D34CE7D00AA16ED /* 百思不得姐Tests */,
 				909BC33B1D34CE7D00AA16ED /* 百思不得姐UITests */,
 				909BC3151D34CE7D00AA16ED /* Products */,
@@ -133,27 +269,6 @@
 				909BC3381D34CE7D00AA16ED /* 百思不得姐UITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		909BC3161D34CE7D00AA16ED /* 百思不得姐 */ = {
-			isa = PBXGroup;
-			children = (
-				906E34431D34D1BE003C294B /* classes */,
-				909BC3281D34CE7D00AA16ED /* Info.plist */,
-				904C65121D35345900E7D034 /* PrefixHeader.pch */,
-				909BC3171D34CE7D00AA16ED /* Supporting Files */,
-			);
-			path = "百思不得姐";
-			sourceTree = "<group>";
-		};
-		909BC3171D34CE7D00AA16ED /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				909BC3201D34CE7D00AA16ED /* Main.storyboard */,
-				909BC3231D34CE7D00AA16ED /* Assets.xcassets */,
-				909BC3181D34CE7D00AA16ED /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		909BC3301D34CE7D00AA16ED /* 百思不得姐Tests */ = {
@@ -312,8 +427,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				909BC3241D34CE7D00AA16ED /* Assets.xcassets in Resources */,
-				909BC3221D34CE7D00AA16ED /* Main.storyboard in Resources */,
+				9044019B1D366D480052A514 /* Info.plist in Resources */,
+				904401961D366D480052A514 /* LaunchScreen.storyboard in Resources */,
+				905CA3201D38AB3A00DE4833 /* GDNewView.xib in Resources */,
+				904401951D366D480052A514 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,11 +578,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				909BC31C1D34CE7D00AA16ED /* AppDelegate.m in Sources */,
-				904C651C1D362F6800E7D034 /* UIView+GDViewExtension.m in Sources */,
-				904C65151D36091A00E7D034 /* GDTabBar.m in Sources */,
-				905AC5F01D351DED002D7F19 /* GDTabbarController.m in Sources */,
-				909BC3191D34CE7D00AA16ED /* main.m in Sources */,
+				904401941D366D480052A514 /* AppDelegate.m in Sources */,
+				904401A01D366D480052A514 /* GDTabBar.m in Sources */,
+				9044019E1D366D480052A514 /* GDNavigationController.m in Sources */,
+				904401B61D366F540052A514 /* GDNewViewController.m in Sources */,
+				904401B01D366EFC0052A514 /* GDMeView.m in Sources */,
+				904401B31D366F440052A514 /* GDMeModel.m in Sources */,
+				904401B91D366F640052A514 /* GDNewView.m in Sources */,
+				9044019D1D366D480052A514 /* GDBaseViewController.m in Sources */,
+				9044019A1D366D480052A514 /* GDEssenceViewContrller.m in Sources */,
+				9044019C1D366D480052A514 /* main.m in Sources */,
+				904401A41D366EC00052A514 /* GDFriendViewController.m in Sources */,
+				904401AD1D366EF00052A514 /* GDMeViewController.m in Sources */,
+				904401981D366D480052A514 /* GDEssenceModel.m in Sources */,
+				904401BC1D366F6E0052A514 /* GDNewModel.m in Sources */,
+				9044019F1D366D480052A514 /* UIView+GDViewExtension.m in Sources */,
+				904401991D366D480052A514 /* GDEssenceView.m in Sources */,
+				904401AA1D366EDA0052A514 /* GDFriendModel.m in Sources */,
+				904401A11D366D480052A514 /* GDTabbarController.m in Sources */,
+				904401A71D366ECA0052A514 /* GDFriendView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,12 +632,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		909BC3201D34CE7D00AA16ED /* Main.storyboard */ = {
+		904401761D366D480052A514 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				909BC3211D34CE7D00AA16ED /* Base */,
+				904401771D366D480052A514 /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -601,7 +733,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "百思不得姐/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "百思不得姐/ohter/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wdcew.-----";
@@ -615,7 +747,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				GCC_PREFIX_HEADER = "百思不得姐/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "百思不得姐/ohter/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wdcew.-----";
