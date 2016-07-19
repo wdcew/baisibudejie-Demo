@@ -8,6 +8,9 @@
 #import "PrefixHeader.pch"
 #import "GDTabBar.h"
 #import "GDEssenceViewContrller.h"
+#import "GDNewViewController.h"
+#import "GDMeViewController.h"
+#import "GDFriendViewController.h"
 
 @interface GDTabbarController ()
 @end
@@ -67,17 +70,17 @@
     [self setViewController:nv TabBarItemTitle:@"精华" Image:[UIImage imageNamed:@"tabBar_essence_icon"] selectedImage:selectedImage];
     
     
-    GDBaseViewController *vc3 =[[GDBaseViewController alloc] init];
+    GDFriendViewController *vc3 =[[GDFriendViewController  alloc] init];
     UIImage *selectedImage3 = [UIImage imageNamed:@"tabBar_friendTrends_click_icon"];
     GDNavigationController *nv3 = [[GDNavigationController alloc] initWithRootViewController:vc3];
     [self setViewController:nv3 TabBarItemTitle:@"朋友" Image:[UIImage imageNamed:@"tabBar_friendTrends_icon"] selectedImage:selectedImage3];
     
-     GDBaseViewController *vc4 =[[GDBaseViewController alloc] init];
+     GDMeViewController *vc4 =[[GDMeViewController  alloc] init];
     UIImage *selectedImage4 = [UIImage imageNamed:@"tabBar_me_click_icon"];
     GDNavigationController *nv4 = [[GDNavigationController alloc] initWithRootViewController:vc4];
     [self setViewController:nv4 TabBarItemTitle:@"我的" Image:[UIImage imageNamed:@"tabBar_me_icon"] selectedImage:selectedImage4];
     
-    GDBaseViewController *vc2 =[[GDBaseViewController alloc] init];
+    GDNewViewController *vc2 =[[GDNewViewController  alloc] init];
     UIImage *selectedImage2 = [UIImage imageNamed:@"tabBar_new_click_icon"];
     GDNavigationController *nv2 = [[GDNavigationController alloc] initWithRootViewController:vc2];
     [self setViewController:nv2 TabBarItemTitle:@"最新" Image:[UIImage imageNamed:@"tabBar_new_icon"] selectedImage:selectedImage2];

@@ -27,12 +27,21 @@
  */
 #endif
 
+#import "GDConstant.h"
 #import "GDNavigationController.h"
 #import "GDBaseViewController.h"
 #import "UIView+GDViewExtension.h"
+#import "Masonry.h"
 
-#define GDColorA(r,g,b,a) [UIColor colorWithRed:(r)/255 green:(g)/255 blue:(b)/255 alpha:(a)/255]
-#define GDColor(R,G,B) GDColorA((R),(G),(B),255)
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#define GDColorA(r,g,b,a) [UIColor colorWithRed:(r)/255.00 green:(g)/255.00 blue:(b)/255.00 alpha:(a)]
+#define GDColor(R,G,B) GDColorA((R),(G),(B),1)
+#define assf int
 
 
 // Include any system framework and library headers here that should be included in all compilation units.

@@ -13,8 +13,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    [self setupBackBarButtonItem];
+    //设置所有Viewcontroller中 背景颜色
+    self.view.backgroundColor = GDColor(206, 206, 206);
     
+//    [self setupBackBarButtonItem];
 }
 - (void)setupBackBarButtonItem
 {

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface GDBaseViewController : UIViewController
+- (void)popAction:(id)sender;
 
 @end

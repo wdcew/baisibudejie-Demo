@@ -7,7 +7,16 @@
 //
 
 #import "GDNewViewController.h"
-
+#import "GDLoginRegisterViewController.h"
 @implementation GDNewViewController
+
+- (IBAction)clickSignIn:(id)sender {
+    
+    GDLoginRegisterViewController *vc = [[GDLoginRegisterViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:^{
+        
+    }];
+}
+
 
 @end

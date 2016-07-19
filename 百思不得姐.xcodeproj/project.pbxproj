@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		4C411BC07A701D9093AD7563 /* libPods-百思不得姐Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1BC2B2FB72B31AEC0660A1 /* libPods-百思不得姐Tests.a */; };
 		607B8C63B18CB534E08A0F62 /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E503F18173BF98E05488EE /* libPods-百思不得姐.a */; };
+		9021FFEE1D38AEFF00ADE12E /* GDNewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9021FFED1D38AEFF00ADE12E /* GDNewViewController.xib */; };
+		9021FFF31D38B66600ADE12E /* GDLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9021FFF21D38B66600ADE12E /* GDLoginRegisterViewController.m */; };
+		9021FFF61D38BA3500ADE12E /* GDLoginRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9021FFF51D38BA3500ADE12E /* GDLoginRegisterView.m */; };
+		9021FFF91D38E5FF00ADE12E /* GDCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9021FFF81D38E5FF00ADE12E /* GDCustomButton.m */; };
+		9038EB851D3E717C00F13684 /* GDFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9038EB841D3E717C00F13684 /* GDFooterView.m */; };
+		90407A821D3D236800AF3C89 /* GDLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 90407A811D3D236800AF3C89 /* GDLoginTextField.m */; };
 		904401941D366D480052A514 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401741D366D480052A514 /* AppDelegate.m */; };
 		904401951D366D480052A514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904401751D366D480052A514 /* Assets.xcassets */; };
 		904401961D366D480052A514 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904401761D366D480052A514 /* LaunchScreen.storyboard */; };
 		904401981D366D480052A514 /* GDEssenceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044017C1D366D480052A514 /* GDEssenceModel.m */; };
 		904401991D366D480052A514 /* GDEssenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044017E1D366D480052A514 /* GDEssenceView.m */; };
 		9044019A1D366D480052A514 /* GDEssenceViewContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401801D366D480052A514 /* GDEssenceViewContrller.m */; };
-		9044019B1D366D480052A514 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 904401821D366D480052A514 /* Info.plist */; };
 		9044019C1D366D480052A514 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401831D366D480052A514 /* main.m */; };
 		9044019D1D366D480052A514 /* GDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401891D366D480052A514 /* GDBaseViewController.m */; };
 		9044019E1D366D480052A514 /* GDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044018B1D366D480052A514 /* GDNavigationController.m */; };
@@ -31,9 +36,11 @@
 		904401B61D366F540052A514 /* GDNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401B51D366F540052A514 /* GDNewViewController.m */; };
 		904401B91D366F640052A514 /* GDNewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401B81D366F640052A514 /* GDNewView.m */; };
 		904401BC1D366F6E0052A514 /* GDNewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 904401BB1D366F6E0052A514 /* GDNewModel.m */; };
-		905CA3201D38AB3A00DE4833 /* GDNewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905CA31F1D38AB3A00DE4833 /* GDNewView.xib */; };
+		9096AD521D3E54A80098D8D8 /* GDConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9096AD511D3E54A80098D8D8 /* GDConstant.m */; };
 		909BC3321D34CE7D00AA16ED /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 909BC3311D34CE7D00AA16ED /* _____Tests.m */; };
 		909BC33D1D34CE7D00AA16ED /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 909BC33C1D34CE7D00AA16ED /* _____UITests.m */; };
+		90B0D3991D3E1C65005D1879 /* GDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D3971D3E1C65005D1879 /* GDTableViewCell.m */; };
+		90B0D39A1D3E1C65005D1879 /* GDTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B0D3981D3E1C65005D1879 /* GDTableViewCell.xib */; };
 		B4425132445C408D86EE3716 /* libPods-百思不得姐UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2F7B47B4F719D800036C64 /* libPods-百思不得姐UITests.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +66,17 @@
 		620A0E08BA0C98B00A0056F0 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 		8326036C5D7FF074BE3C05F5 /* Pods-百思不得姐Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐Tests/Pods-百思不得姐Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C1BC2B2FB72B31AEC0660A1 /* libPods-百思不得姐Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9021FFED1D38AEFF00ADE12E /* GDNewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDNewViewController.xib; sourceTree = "<group>"; };
+		9021FFF11D38B66500ADE12E /* GDLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDLoginRegisterViewController.h; sourceTree = "<group>"; };
+		9021FFF21D38B66600ADE12E /* GDLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDLoginRegisterViewController.m; sourceTree = "<group>"; };
+		9021FFF41D38BA3500ADE12E /* GDLoginRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDLoginRegisterView.h; sourceTree = "<group>"; };
+		9021FFF51D38BA3500ADE12E /* GDLoginRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDLoginRegisterView.m; sourceTree = "<group>"; };
+		9021FFF71D38E5FF00ADE12E /* GDCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCustomButton.h; sourceTree = "<group>"; };
+		9021FFF81D38E5FF00ADE12E /* GDCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCustomButton.m; sourceTree = "<group>"; };
+		9038EB831D3E717C00F13684 /* GDFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDFooterView.h; sourceTree = "<group>"; };
+		9038EB841D3E717C00F13684 /* GDFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDFooterView.m; sourceTree = "<group>"; };
+		90407A801D3D236800AF3C89 /* GDLoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDLoginTextField.h; sourceTree = "<group>"; };
+		90407A811D3D236800AF3C89 /* GDLoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDLoginTextField.m; sourceTree = "<group>"; };
 		904401731D366D480052A514 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
 		904401741D366D480052A514 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		904401751D366D480052A514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +118,8 @@
 		904401B81D366F640052A514 /* GDNewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDNewView.m; sourceTree = "<group>"; };
 		904401BA1D366F6E0052A514 /* GDNewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDNewModel.h; sourceTree = "<group>"; };
 		904401BB1D366F6E0052A514 /* GDNewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDNewModel.m; sourceTree = "<group>"; };
-		905CA31F1D38AB3A00DE4833 /* GDNewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDNewView.xib; sourceTree = "<group>"; };
+		9096AD501D3E54A80098D8D8 /* GDConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDConstant.h; sourceTree = "<group>"; };
+		9096AD511D3E54A80098D8D8 /* GDConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDConstant.m; sourceTree = "<group>"; };
 		909BC3141D34CE7D00AA16ED /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		909BC32D1D34CE7D00AA16ED /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		909BC3311D34CE7D00AA16ED /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
@@ -108,6 +127,9 @@
 		909BC3381D34CE7D00AA16ED /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		909BC33C1D34CE7D00AA16ED /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		909BC33E1D34CE7D00AA16ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B0D3961D3E1C65005D1879 /* GDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTableViewCell.h; sourceTree = "<group>"; };
+		90B0D3971D3E1C65005D1879 /* GDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTableViewCell.m; sourceTree = "<group>"; };
+		90B0D3981D3E1C65005D1879 /* GDTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDTableViewCell.xib; sourceTree = "<group>"; };
 		9A97EEC2DFF07A6FEB7F7A97 /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 		A472E276499FA180BB05483B /* Pods-百思不得姐UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐UITests/Pods-百思不得姐UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5E503F18173BF98E05488EE /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,10 +209,15 @@
 			children = (
 				904401AB1D366EF00052A514 /* GDMeViewController.h */,
 				904401AC1D366EF00052A514 /* GDMeViewController.m */,
+				90B0D3961D3E1C65005D1879 /* GDTableViewCell.h */,
+				90B0D3971D3E1C65005D1879 /* GDTableViewCell.m */,
+				90B0D3981D3E1C65005D1879 /* GDTableViewCell.xib */,
 				904401AE1D366EFC0052A514 /* GDMeView.h */,
 				904401AF1D366EFC0052A514 /* GDMeView.m */,
 				904401B11D366F440052A514 /* GDMeModel.h */,
 				904401B21D366F440052A514 /* GDMeModel.m */,
+				9038EB831D3E717C00F13684 /* GDFooterView.h */,
+				9038EB841D3E717C00F13684 /* GDFooterView.m */,
 			);
 			path = me;
 			sourceTree = "<group>";
@@ -200,11 +227,19 @@
 			children = (
 				904401B41D366F540052A514 /* GDNewViewController.h */,
 				904401B51D366F540052A514 /* GDNewViewController.m */,
-				905CA31F1D38AB3A00DE4833 /* GDNewView.xib */,
+				9021FFED1D38AEFF00ADE12E /* GDNewViewController.xib */,
 				904401B71D366F640052A514 /* GDNewView.h */,
 				904401B81D366F640052A514 /* GDNewView.m */,
 				904401BA1D366F6E0052A514 /* GDNewModel.h */,
 				904401BB1D366F6E0052A514 /* GDNewModel.m */,
+				9021FFF11D38B66500ADE12E /* GDLoginRegisterViewController.h */,
+				9021FFF21D38B66600ADE12E /* GDLoginRegisterViewController.m */,
+				90407A801D3D236800AF3C89 /* GDLoginTextField.h */,
+				90407A811D3D236800AF3C89 /* GDLoginTextField.m */,
+				9021FFF41D38BA3500ADE12E /* GDLoginRegisterView.h */,
+				9021FFF51D38BA3500ADE12E /* GDLoginRegisterView.m */,
+				9021FFF71D38E5FF00ADE12E /* GDCustomButton.h */,
+				9021FFF81D38E5FF00ADE12E /* GDCustomButton.m */,
 			);
 			path = new;
 			sourceTree = "<group>";
@@ -220,6 +255,8 @@
 				904401821D366D480052A514 /* Info.plist */,
 				904401831D366D480052A514 /* main.m */,
 				9044018E1D366D480052A514 /* PrefixHeader.pch */,
+				9096AD501D3E54A80098D8D8 /* GDConstant.h */,
+				9096AD511D3E54A80098D8D8 /* GDConstant.m */,
 			);
 			path = ohter;
 			sourceTree = "<group>";
@@ -427,9 +464,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9044019B1D366D480052A514 /* Info.plist in Resources */,
+				9021FFEE1D38AEFF00ADE12E /* GDNewViewController.xib in Resources */,
 				904401961D366D480052A514 /* LaunchScreen.storyboard in Resources */,
-				905CA3201D38AB3A00DE4833 /* GDNewView.xib in Resources */,
+				90B0D39A1D3E1C65005D1879 /* GDTableViewCell.xib in Resources */,
 				904401951D366D480052A514 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -580,6 +617,11 @@
 			files = (
 				904401941D366D480052A514 /* AppDelegate.m in Sources */,
 				904401A01D366D480052A514 /* GDTabBar.m in Sources */,
+				90B0D3991D3E1C65005D1879 /* GDTableViewCell.m in Sources */,
+				9021FFF61D38BA3500ADE12E /* GDLoginRegisterView.m in Sources */,
+				9021FFF91D38E5FF00ADE12E /* GDCustomButton.m in Sources */,
+				90407A821D3D236800AF3C89 /* GDLoginTextField.m in Sources */,
+				9038EB851D3E717C00F13684 /* GDFooterView.m in Sources */,
 				9044019E1D366D480052A514 /* GDNavigationController.m in Sources */,
 				904401B61D366F540052A514 /* GDNewViewController.m in Sources */,
 				904401B01D366EFC0052A514 /* GDMeView.m in Sources */,
@@ -591,7 +633,9 @@
 				904401A41D366EC00052A514 /* GDFriendViewController.m in Sources */,
 				904401AD1D366EF00052A514 /* GDMeViewController.m in Sources */,
 				904401981D366D480052A514 /* GDEssenceModel.m in Sources */,
+				9096AD521D3E54A80098D8D8 /* GDConstant.m in Sources */,
 				904401BC1D366F6E0052A514 /* GDNewModel.m in Sources */,
+				9021FFF31D38B66600ADE12E /* GDLoginRegisterViewController.m in Sources */,
 				9044019F1D366D480052A514 /* UIView+GDViewExtension.m in Sources */,
 				904401991D366D480052A514 /* GDEssenceView.m in Sources */,
 				904401AA1D366EDA0052A514 /* GDFriendModel.m in Sources */,

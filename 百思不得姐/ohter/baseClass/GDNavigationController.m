@@ -19,6 +19,7 @@
     if (self.childViewControllers.count >1) {//rootViewcontroller 不允许 pop手势交互
         return YES;
     }
+    
     return NO;
 }
 
@@ -48,7 +49,7 @@
     NSDictionary *normalAttr =@{NSFontAttributeName:[UIFont systemFontOfSize:15],NSForegroundColorAttributeName:[UIColor blackColor]};
     [backTitle setTitleTextAttributes:normalAttr forState:UIControlStateNormal];
     NSDictionary *selectedAttr =@{NSFontAttributeName:[UIFont systemFontOfSize:15],NSForegroundColorAttributeName:[UIColor redColor]};
-    [backTitle setTitleTextAttributes:selectedAttr forState:UIControlStateSelected];
+    [backTitle setTitleTextAttributes:selectedAttr forState:UIControlStateHighlighted];
     
     viewController.navigationItem.backBarButtonItem = backTitle;
     if (self.childViewControllers.count > 1) {//判断当前controller 是否为rootController

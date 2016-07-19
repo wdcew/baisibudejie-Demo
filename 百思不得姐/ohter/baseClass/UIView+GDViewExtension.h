@@ -9,10 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (GDViewExtension)
+
+
 // 为了不跟其他框架中的 Extension 的 property 冲突，建议在前缀名
 @property (nonatomic, assign) CGFloat GD_height;
 @property (nonatomic, assign) CGFloat GD_width;
 @property (nonatomic, assign) CGFloat GD_x;
 @property (nonatomic, assign) CGFloat GD_y;
-
 @end

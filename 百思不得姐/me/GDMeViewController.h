@@ -7,7 +7,7 @@
 //
 
 #import "GDBaseViewController.h"
-
-@interface GDMeViewController : GDBaseViewController
+#import "GDTableViewCell.h"
+@interface GDMeViewController : UITableViewController
 
 @end

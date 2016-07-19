@@ -9,5 +9,4 @@
 #import "GDFriendModel.h"
 
 @implementation GDFriendModel
-
 @end
