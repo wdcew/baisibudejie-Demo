@@ -15,6 +15,8 @@
     [super viewDidLoad];
     //设置所有Viewcontroller中 背景颜色
     self.view.backgroundColor = GDColor(206, 206, 206);
+    //设置edges,保证所有 ViewController 中的 content 都不会被tabbar 与navigationBar  遮挡overlay
+    self.edgesForExtendedLayout = UIRectEdgeNone;
     
 //    [self setupBackBarButtonItem];
 }

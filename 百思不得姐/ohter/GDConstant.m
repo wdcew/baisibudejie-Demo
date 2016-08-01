@@ -10,3 +10,6 @@
 
 //通用的 cell之间的间距
 CGFloat const GDcellMargin = 10;
+
+ CGFloat const navigationBarInset = 64;
+ CGFloat const tabBarInset = 49;

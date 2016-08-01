@@ -9,3 +9,6 @@
 #import <UIKit/UIKit.h>
 
 UIKIT_EXTERN CGFloat const GDcellMargin;
+
+UIKIT_EXTERN CGFloat const navigationBarInset;
+UIKIT_EXTERN CGFloat const tabBarInset;

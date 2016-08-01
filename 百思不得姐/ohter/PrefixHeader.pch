@@ -21,17 +21,30 @@
 
 #ifdef DEBUG //DEBUG模式下启用的宏
 #define GDNSLog(...) NSLog(__VA_ARGS__)
+#define GDSavePlist(dict) [(dict) writeToFile:@"/Users/gaoguandong/Desktop/123.plist" atomically:YES]
+
+#define GDLogRect(rect) NSLog(@"%@",NSStringFromCGRect((rect)))
 
 /**
  *  颜色
  */
 #endif
 
+#import "UIView+GDViewExtension.h"
+#import "NSString+GDStringExtension.h"
+
 #import "GDConstant.h"
 #import "GDNavigationController.h"
 #import "GDBaseViewController.h"
-#import "UIView+GDViewExtension.h"
+#import "GDCustomButton.h"
+
+#import "MJRefresh.h"
+#import "SVProgressHUD.h"
 #import "Masonry.h"
+#import "YYmodel.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
 
 //define this constant if you want to use Masonry without the 'mas_' prefix
 #define MAS_SHORTHAND
@@ -41,8 +54,7 @@
 
 #define GDColorA(r,g,b,a) [UIColor colorWithRed:(r)/255.00 green:(g)/255.00 blue:(b)/255.00 alpha:(a)]
 #define GDColor(R,G,B) GDColorA((R),(G),(B),1)
-#define assf int
-
+#define GDRandomColor GDColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
