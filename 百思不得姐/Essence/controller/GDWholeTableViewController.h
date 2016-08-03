@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import "GDRefreshNormalHeader.h"
-
+#import "GDRefreshBackFooter.h"
 #import "GDTableViewController.h"
 #import "GDTopic.h"
 #import "GDArrayDataSource.h"

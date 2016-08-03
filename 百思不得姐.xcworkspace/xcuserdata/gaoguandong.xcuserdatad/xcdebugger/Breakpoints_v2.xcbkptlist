@@ -124,61 +124,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/Essence/controller/GDEssenceViewContrller.m"
-            timestampString = "491679050.160572"
+            timestampString = "491745477.905863"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
             landmarkName = "-lazyLoadVCWithIndex"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/Essence/controller/GDWholeTableViewController.m"
-            timestampString = "491673858.34698"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "-loadNewTopics"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__43-[GDWholeTableViewController loadNewTopics]_block_invoke_2"
-                  moduleName = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/gaoguandong/Documents/XiaoMage/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/Essence/controller/GDWholeTableViewController.m"
-                  timestampString = "491406234.150905"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
-                  offsetFromSymbolStart = "231">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__copy_helper_block_.53"
-                  moduleName = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/gaoguandong/Documents/XiaoMage/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/Essence/controller/GDWholeTableViewController.m"
-                  timestampString = "491406234.151413"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
-                  offsetFromSymbolStart = "51">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -220,12 +172,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/Essence/controller/GDWholeTableViewController.m"
-            timestampString = "491673858.34698"
+            timestampString = "491896488.057519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "-setupDataSource"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "-loadMoreTopics"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -236,43 +188,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/Essence/controller/GDWholeTableViewController.m"
-            timestampString = "491411824.925199"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/Essence/controller/GDWholeTableViewController.m"
-            timestampString = "491475265.512089"
+            timestampString = "491814859.5642"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
             endingLineNumber = "50"
-            landmarkName = "-loadNewTopics"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/Essence/controller/GDWholeTableViewController.m"
-            timestampString = "491475265.512089"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
             landmarkName = "-setupRefresh"
             landmarkType = "5">
          </BreakpointContent>
@@ -412,12 +332,300 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/Essence/controller/GDWholeTableViewController.m"
-            timestampString = "491673858.34698"
+            timestampString = "491896488.057519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "-scrollViewDidEndDragging:willDecelerate:"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "-tableView:heightForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
+            timestampString = "491754698.675729"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "253"
+            endingLineNumber = "253"
+            landmarkName = "-URLSession:task:didCompleteWithError:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
+            timestampString = "491755649.033575"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1005"
+            endingLineNumber = "1005"
+            landmarkName = "-URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
+            timestampString = "491755683.967442"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1086"
+            endingLineNumber = "1086"
+            landmarkName = "-URLSession:task:didCompleteWithError:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/Essence/view/GDTopicCell.m"
+            timestampString = "491900746.025305"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-initWithStyle:reuseIdentifier:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/Essence/view/GDTopicCell.m"
+            timestampString = "491900746.025305"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
+            landmarkName = "-updateConstraints"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GDTopicCell updateConstraints]"
+                  moduleName = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaoguandong/Documents/XiaoMage/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/Essence/view/GDTopicCell.m"
+                  timestampString = "491769117.502759"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__32-[GDTopicCell updateConstraints]_block_invoke"
+                  moduleName = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaoguandong/Documents/XiaoMage/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/Essence/view/GDTopicCell.m"
+                  timestampString = "491769117.50289"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/new/view/GDLoginRegisterView.m"
+            timestampString = "491772985.574247"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "-updateConstraints"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GDLoginRegisterView updateConstraints]"
+                  moduleName = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaoguandong/Documents/XiaoMage/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/new/view/GDLoginRegisterView.m"
+                  timestampString = "491773488.826371"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__40-[GDLoginRegisterView updateConstraints]_block_invoke"
+                  moduleName = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaoguandong/Documents/XiaoMage/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/new/view/GDLoginRegisterView.m"
+                  timestampString = "491773488.826555"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/new/controller/GDLoginRegisterViewController.m"
+            timestampString = "491773426.185533"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "-switchInterface:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/new/controller/GDLoginRegisterViewController.m"
+            timestampString = "491773426.185533"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "-switchInterface:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/new/view/GDLoginRegisterView.m"
+            timestampString = "491773522.061866"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
+            landmarkName = "-updateConstraints"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GDLoginRegisterView updateConstraints]"
+                  moduleName = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaoguandong/Documents/XiaoMage/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/new/view/GDLoginRegisterView.m"
+                  timestampString = "491773522.063407"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__40-[GDLoginRegisterView updateConstraints]_block_invoke"
+                  moduleName = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaoguandong/Documents/XiaoMage/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90/new/view/GDLoginRegisterView.m"
+                  timestampString = "491773522.063533"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Masonry/Masonry/MASConstraintMaker.m"
+            timestampString = "491775173.80031"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "-firstBaseline"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/Essence/view/GDTopicCell.m"
+            timestampString = "491900746.025305"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "-addCustomView"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/Essence/controller/GDWholeTableViewController.m"
+            timestampString = "491896472.786163"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "-loadMoreTopics"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

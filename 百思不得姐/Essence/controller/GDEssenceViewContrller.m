@@ -14,7 +14,7 @@
 @property (nonatomic, weak)GDTitleView *titleView;
 /*socrollView*/
 @property (nonatomic, weak)UIScrollView *scrollView;
-/*对应 tableView 的 ControllerV*/
+/*对应 tableView 的 Controller*/
 @property (nonatomic, strong) NSMutableArray<UITableViewController *> *childControllers;
 @end
 @implementation GDEssenceViewContrller
@@ -41,13 +41,12 @@
 - (void)setupScrollView
 {
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:self.view.frame];
-    
     // 不允许自动调整scrollView的内边距(很重要，不然添加的tableView可以无法识别手势）
     self.automaticallyAdjustsScrollViewInsets = NO;
-    
+    //即将 contentSize 与其 subVIewsCount 相除，以达到分页移动的效果
+    scrollView.pagingEnabled = YES;
     scrollView.contentSize = CGSizeMake(self.view.GD_width * ViewCount, self.view.GD_height);
     scrollView.directionalLockEnabled = YES;
-    scrollView.pagingEnabled = YES;
     scrollView.showsVerticalScrollIndicator = NO;
     scrollView.showsHorizontalScrollIndicator = YES;
     scrollView.showsHorizontalScrollIndicator = NO;

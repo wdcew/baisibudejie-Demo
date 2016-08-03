@@ -46,11 +46,11 @@
 #import "UIImageView+WebCache.h"
 #import "UIButton+WebCache.h"
 
-//define this constant if you want to use Masonry without the 'mas_' prefix
-#define MAS_SHORTHAND
-
-//define this constant if you want to enable auto-boxing for default syntax
-#define MAS_SHORTHAND_GLOBALS
+////define this constant if you want to use Masonry without the 'mas_' prefix
+//#define MAS_SHORTHAND
+//
+////define this constant if you want to enable auto-boxing for default syntax
+//#define MAS_SHORTHAND_GLOBALS
 
 #define GDColorA(r,g,b,a) [UIColor colorWithRed:(r)/255.00 green:(g)/255.00 blue:(b)/255.00 alpha:(a)]
 #define GDColor(R,G,B) GDColorA((R),(G),(B),1)

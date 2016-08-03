@@ -47,21 +47,6 @@
     
 }
 
-- (void)setupIndicatorView
-{
-    
-    //创建 indicatorView
-    UIView *indicatorView = [[UIView alloc] init];
-    indicatorView.backgroundColor = [UIColor redColor];
-    //设置高度 和 Y
-    CGFloat margin = 2;
-    indicatorView.GD_height = 1;
-    indicatorView.GD_y = self.GD_height - indicatorView.GD_height - margin;
-    
-    self.indicatorView  = indicatorView;
-    [self addSubview:indicatorView];
-}
-
 - (void)createButtonWithTitle:(NSString *)title Tag:(NSUInteger)tag
 {
     UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -79,6 +64,22 @@
     button.frame = CGRectMake(self.GD_width / ButtonCount * tag, 0, self.GD_width / ButtonCount, self.GD_height);
     [self addSubview:button];
 }
+
+- (void)setupIndicatorView
+{
+    
+    //创建 indicatorView
+    UIView *indicatorView = [[UIView alloc] init];
+    indicatorView.backgroundColor = [UIColor redColor];
+    //设置高度 和 Y
+    CGFloat margin = 2;
+    indicatorView.GD_height = 1;
+    indicatorView.GD_y = self.GD_height - indicatorView.GD_height - margin;
+    
+    self.indicatorView  = indicatorView;
+    [self addSubview:indicatorView];
+}
+
 
 - (void)adjustIndicatorView:(id)sender
 {

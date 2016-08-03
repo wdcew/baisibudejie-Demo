@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GDTableViewCell.h"
+
+#import "GDTopicCell.h"
 
 @interface GDTableViewController : UITableViewController
 

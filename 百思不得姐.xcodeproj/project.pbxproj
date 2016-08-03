@@ -43,6 +43,10 @@
 		9038EBF11D3F85A500F13684 /* GDConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9038EBCE1D3F85A500F13684 /* GDConstant.m */; };
 		9038EBF21D3F85A500F13684 /* GDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9038EBD21D3F85A500F13684 /* GDTabBar.m */; };
 		9038EBF31D3F85A500F13684 /* GDTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9038EBD41D3F85A500F13684 /* GDTabbarController.m */; };
+		904340D41D51A766009A2D00 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904340D31D51A766009A2D00 /* File.swift */; };
+		904340D71D51D50F009A2D00 /* GDCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 904340D61D51D50F009A2D00 /* GDCommentModel.m */; };
+		904340DA1D51D51C009A2D00 /* GDUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 904340D91D51D51C009A2D00 /* GDUserModel.m */; };
+		9055C9B81D4F737B002EA391 /* GDRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9055C9B71D4F737B002EA391 /* GDRefreshBackFooter.m */; };
 		907D07571D4A10B800DCC150 /* GDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907D07561D4A10B800DCC150 /* GDTableViewController.m */; };
 		909BC3321D34CE7D00AA16ED /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 909BC3311D34CE7D00AA16ED /* _____Tests.m */; };
 		909BC33D1D34CE7D00AA16ED /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 909BC33C1D34CE7D00AA16ED /* _____UITests.m */; };
@@ -54,10 +58,12 @@
 		90B4E36B1D48FA6B00BB8C64 /* GDVoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B4E36A1D48FA6B00BB8C64 /* GDVoiceTableViewController.m */; };
 		90B4E36E1D48FA7A00BB8C64 /* GDImageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B4E36D1D48FA7A00BB8C64 /* GDImageTableViewController.m */; };
 		90B4E3711D48FA9400BB8C64 /* GDTextTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B4E3701D48FA9400BB8C64 /* GDTextTableViewController.m */; };
+		90CA42411D4FBDC400A5F908 /* GDTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CA42401D4FBDC400A5F908 /* GDTopicCell.m */; };
 		90D21D881D4E52FA00A91334 /* GDRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D21D871D4E52FA00A91334 /* GDRefreshNormalHeader.m */; };
 		90D73B451D4A37E100F1B51B /* GDTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D73B441D4A37E100F1B51B /* GDTopic.m */; };
 		90D73B4A1D4A46DD00F1B51B /* GDArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D73B491D4A46DD00F1B51B /* GDArrayDataSource.m */; };
 		90E65A991D40A50A00F696AF /* GDSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E65A981D40A50A00F696AF /* GDSquareButton.m */; };
+		90F94CC81D50C6B700443F81 /* GDbaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F94CC71D50C6B700443F81 /* GDbaseCell.m */; };
 		B4425132445C408D86EE3716 /* libPods-百思不得姐UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2F7B47B4F719D800036C64 /* libPods-百思不得姐UITests.a */; };
 /* End PBXBuildFile section */
 
@@ -148,6 +154,14 @@
 		9038EBD21D3F85A500F13684 /* GDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTabBar.m; sourceTree = "<group>"; };
 		9038EBD31D3F85A500F13684 /* GDTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTabbarController.h; sourceTree = "<group>"; };
 		9038EBD41D3F85A500F13684 /* GDTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTabbarController.m; sourceTree = "<group>"; };
+		904340D01D51A731009A2D00 /* 百思不得姐-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "百思不得姐-Bridging-Header.h"; sourceTree = "<group>"; };
+		904340D31D51A766009A2D00 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		904340D51D51D50F009A2D00 /* GDCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCommentModel.h; sourceTree = "<group>"; };
+		904340D61D51D50F009A2D00 /* GDCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCommentModel.m; sourceTree = "<group>"; };
+		904340D81D51D51C009A2D00 /* GDUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUserModel.h; sourceTree = "<group>"; };
+		904340D91D51D51C009A2D00 /* GDUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUserModel.m; sourceTree = "<group>"; };
+		9055C9B61D4F737B002EA391 /* GDRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDRefreshBackFooter.h; sourceTree = "<group>"; };
+		9055C9B71D4F737B002EA391 /* GDRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDRefreshBackFooter.m; sourceTree = "<group>"; };
 		907D07551D4A10B800DCC150 /* GDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTableViewController.h; sourceTree = "<group>"; };
 		907D07561D4A10B800DCC150 /* GDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTableViewController.m; sourceTree = "<group>"; };
 		909BC3141D34CE7D00AA16ED /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +186,8 @@
 		90B4E36D1D48FA7A00BB8C64 /* GDImageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDImageTableViewController.m; sourceTree = "<group>"; };
 		90B4E36F1D48FA9400BB8C64 /* GDTextTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTextTableViewController.h; sourceTree = "<group>"; };
 		90B4E3701D48FA9400BB8C64 /* GDTextTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTextTableViewController.m; sourceTree = "<group>"; };
+		90CA423F1D4FBDC400A5F908 /* GDTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTopicCell.h; sourceTree = "<group>"; };
+		90CA42401D4FBDC400A5F908 /* GDTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTopicCell.m; sourceTree = "<group>"; };
 		90D21D861D4E52FA00A91334 /* GDRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDRefreshNormalHeader.h; sourceTree = "<group>"; };
 		90D21D871D4E52FA00A91334 /* GDRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDRefreshNormalHeader.m; sourceTree = "<group>"; };
 		90D73B431D4A37E100F1B51B /* GDTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTopic.h; sourceTree = "<group>"; };
@@ -180,6 +196,8 @@
 		90D73B491D4A46DD00F1B51B /* GDArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDArrayDataSource.m; sourceTree = "<group>"; };
 		90E65A971D40A50A00F696AF /* GDSquareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDSquareButton.h; sourceTree = "<group>"; };
 		90E65A981D40A50A00F696AF /* GDSquareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDSquareButton.m; sourceTree = "<group>"; };
+		90F94CC61D50C6B700443F81 /* GDbaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDbaseCell.h; sourceTree = "<group>"; };
+		90F94CC71D50C6B700443F81 /* GDbaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDbaseCell.m; sourceTree = "<group>"; };
 		9A97EEC2DFF07A6FEB7F7A97 /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 		A472E276499FA180BB05483B /* Pods-百思不得姐UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐UITests/Pods-百思不得姐UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5E503F18173BF98E05488EE /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -246,6 +264,8 @@
 		9038EB8D1D3F85A500F13684 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				904340D01D51A731009A2D00 /* 百思不得姐-Bridging-Header.h */,
+				904340D31D51A766009A2D00 /* File.swift */,
 				9038EB8E1D3F85A500F13684 /* GDEssenceViewContrller.h */,
 				9038EB8F1D3F85A500F13684 /* GDEssenceViewContrller.m */,
 				907D07551D4A10B800DCC150 /* GDTableViewController.h */,
@@ -273,6 +293,10 @@
 				9038EB921D3F85A500F13684 /* GDEssenceModel.m */,
 				90D73B431D4A37E100F1B51B /* GDTopic.h */,
 				90D73B441D4A37E100F1B51B /* GDTopic.m */,
+				904340D51D51D50F009A2D00 /* GDCommentModel.h */,
+				904340D61D51D50F009A2D00 /* GDCommentModel.m */,
+				904340D81D51D51C009A2D00 /* GDUserModel.h */,
+				904340D91D51D51C009A2D00 /* GDUserModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -284,6 +308,8 @@
 				9038EB951D3F85A500F13684 /* GDEssenceView.m */,
 				90B4E3601D48A85700BB8C64 /* GDTitleView.h */,
 				90B4E3611D48A85700BB8C64 /* GDTitleView.m */,
+				90CA423F1D4FBDC400A5F908 /* GDTopicCell.h */,
+				90CA42401D4FBDC400A5F908 /* GDTopicCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -446,6 +472,10 @@
 				9038EBC91D3F85A500F13684 /* GDNavigationController.m */,
 				90D21D861D4E52FA00A91334 /* GDRefreshNormalHeader.h */,
 				90D21D871D4E52FA00A91334 /* GDRefreshNormalHeader.m */,
+				9055C9B61D4F737B002EA391 /* GDRefreshBackFooter.h */,
+				9055C9B71D4F737B002EA391 /* GDRefreshBackFooter.m */,
+				90F94CC61D50C6B700443F81 /* GDbaseCell.h */,
+				90F94CC71D50C6B700443F81 /* GDbaseCell.m */,
 			);
 			path = baseClass;
 			sourceTree = "<group>";
@@ -806,6 +836,7 @@
 				9038EBDB1D3F85A500F13684 /* GDFriendViewController.m in Sources */,
 				9038EBF01D3F85A500F13684 /* UIView+GDViewExtension.m in Sources */,
 				9038EBD51D3F85A500F13684 /* AppDelegate.m in Sources */,
+				9055C9B81D4F737B002EA391 /* GDRefreshBackFooter.m in Sources */,
 				9038EBDF1D3F85A500F13684 /* main.m in Sources */,
 				9038EBEC1D3F85A500F13684 /* GDLoginTextField.m in Sources */,
 				90D73B451D4A37E100F1B51B /* GDTopic.m in Sources */,
@@ -820,6 +851,7 @@
 				9038EBE71D3F85A500F13684 /* GDNewViewController.m in Sources */,
 				9038EBEA1D3F85A500F13684 /* GDCustomButton.m in Sources */,
 				90B4E3681D48FA4C00BB8C64 /* GDVideoTableViewController.m in Sources */,
+				904340DA1D51D51C009A2D00 /* GDUserModel.m in Sources */,
 				9038EBD91D3F85A500F13684 /* GDEssenceModel.m in Sources */,
 				90B4E36E1D48FA7A00BB8C64 /* GDImageTableViewController.m in Sources */,
 				9038EBEB1D3F85A500F13684 /* GDLoginRegisterView.m in Sources */,
@@ -827,9 +859,11 @@
 				90E65A991D40A50A00F696AF /* GDSquareButton.m in Sources */,
 				9038EBEF1D3F85A500F13684 /* GDNavigationController.m in Sources */,
 				900E783A1D463B41000157BF /* GDSettingCell.m in Sources */,
+				904340D71D51D50F009A2D00 /* GDCommentModel.m in Sources */,
 				909D26011D40B78200B92E17 /* GDWebViewController.m in Sources */,
 				9038EBED1D3F85A500F13684 /* GDNewView.m in Sources */,
 				9038EBE01D3F85A500F13684 /* GDMeViewController.m in Sources */,
+				904340D41D51A766009A2D00 /* File.swift in Sources */,
 				9038EBDD1D3F85A500F13684 /* GDFriendView.m in Sources */,
 				90B4E3651D48FA2D00BB8C64 /* GDWholeTableViewController.m in Sources */,
 				90D21D881D4E52FA00A91334 /* GDRefreshNormalHeader.m in Sources */,
@@ -837,12 +871,14 @@
 				9038EBF11D3F85A500F13684 /* GDConstant.m in Sources */,
 				9038EBE61D3F85A500F13684 /* GDLoginRegisterViewController.m in Sources */,
 				9038EBEE1D3F85A500F13684 /* GDBaseViewController.m in Sources */,
+				90F94CC81D50C6B700443F81 /* GDbaseCell.m in Sources */,
 				90D73B4A1D4A46DD00F1B51B /* GDArrayDataSource.m in Sources */,
 				9038EBE21D3F85A500F13684 /* GDFooterView.m in Sources */,
 				901996311D3FA4F500D8F4D3 /* GDADModel.m in Sources */,
 				9038EBDC1D3F85A500F13684 /* GDFriendModel.m in Sources */,
 				9038EBF31D3F85A500F13684 /* GDTabbarController.m in Sources */,
 				9038EBE41D3F85A500F13684 /* GDTableViewCell.m in Sources */,
+				90CA42411D4FBDC400A5F908 /* GDTopicCell.m in Sources */,
 				90B4E36B1D48FA6B00BB8C64 /* GDVoiceTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -978,12 +1014,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "百思不得姐/ohter/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wdcew.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "百思不得姐/Essence/controller/百思不得姐-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -993,11 +1032,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PREFIX_HEADER = "百思不得姐/ohter/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wdcew.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "百思不得姐/Essence/controller/百思不得姐-Bridging-Header.h";
 			};
 			name = Release;
 		};

@@ -56,6 +56,7 @@
 //status	string	帖子的状态（例：4）
 
 #import <UIKit/UIKit.h>
+#import "GDCommentModel.h"
 
 @interface GDTopic : UITableViewController
 @property (nonatomic, strong) NSString *name; //发帖的人名字
@@ -66,4 +67,6 @@
 @property (nonatomic, strong) NSString *ding; //顶的数量
 @property (nonatomic, strong) NSString *repost; //转发的数量
 @property (nonatomic, strong) NSString *hate; //踩的数量
+
+@property (nonatomic, strong) NSArray<GDCommentModel *> *top_cmt; //最热评论
 @end

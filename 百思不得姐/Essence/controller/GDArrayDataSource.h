@@ -10,7 +10,7 @@
 @interface GDArrayDataSource : NSObject <UITableViewDataSource>
 
 typedef void (^executeBlock)(id cell,id item);
-@property(nonatomic,strong) executeBlock block;
+@property(nonatomic, copy) executeBlock block;
 
 - (instancetype)initWithItmes:(NSMutableArray *)items executeBlock:(executeBlock)block ReuseIdentifier:(NSString *)identifier;
 - (id)itemAtIndex:(NSUInteger)index;

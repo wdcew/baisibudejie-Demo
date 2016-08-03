@@ -91,14 +91,16 @@
     }
     
     //以下3个方法 必须都有，才会有 调整constrains的动画
-    [self.rootView setNeedsUpdateConstraints];
 
+    [self.rootView setNeedsUpdateConstraints];
+    
     // update constraints now so we can animate the change
     [self.rootView updateConstraintsIfNeeded];
     [UIView animateWithDuration:0.25 animations:^{
     // tell constraints they need updating
         
-        [self.rootView.registerView layoutIfNeeded];
+        [self.rootView layoutIfNeeded];
+        
     }];
   
     NSLog(@"%@",NSStringFromCGRect(self.rootView.registerView.frame));

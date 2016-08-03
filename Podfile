@@ -1,5 +1,5 @@
 # Uncomment this line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '9.0'
 #
 pod 'Masonry', '~> 1.0.1'
 pod 'YYModel', '~> 1.0.4'

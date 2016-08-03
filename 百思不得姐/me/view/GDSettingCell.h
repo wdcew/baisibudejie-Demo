@@ -10,4 +10,5 @@
 
 @interface GDSettingCell : GDTableViewCell
 @property (nonatomic, strong) NSString *title;
+
 @end

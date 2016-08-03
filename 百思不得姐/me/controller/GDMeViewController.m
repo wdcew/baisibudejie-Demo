@@ -64,9 +64,8 @@
 #pragma mark target action method
 - (void)clickSettingButton:(UIButton *)sender
 {
-    [self.tableView.mj_header endRefreshing];
-//    GDSettingViewController *vc = [[GDSettingViewController alloc] init];
-//    [self.navigationController pushViewController:vc animated:YES];
+    GDSettingViewController *vc = [[GDSettingViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark load data method
@@ -86,7 +85,7 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 10;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

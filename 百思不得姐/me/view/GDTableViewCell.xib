@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -13,6 +14,22 @@
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKM-am-SMZ">
+                        <rect key="frame" x="8" y="11" width="152" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WKM-am-SMZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3" id="Jto-aq-Hff"/>
+                    <constraint firstItem="WKM-am-SMZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3" id="Krf-Pd-9o5"/>
+                    <constraint firstItem="WKM-am-SMZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Y2X-ze-44B"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="WKM-am-SMZ" secondAttribute="bottom" constant="3.5" id="gWK-5r-fOo"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="WKM-am-SMZ" secondAttribute="trailing" constant="119" id="mPD-jd-ERw"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="WKM-am-SMZ" secondAttribute="bottom" constant="3.5" id="tHQ-nQ-dCx"/>
+                </constraints>
             </tableViewCellContentView>
         </tableViewCell>
     </objects>

@@ -38,7 +38,7 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:self.identifier forIndexPath:indexPath];
     if (cell) {
-        id item = self.items[indexPath.section];
+        id item = self.items[indexPath.row];
         self.block(cell,item);
     }
     return cell;
@@ -46,13 +46,13 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return self.items.count;
+    return 1;
     
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 1;
+    return self.items.count;
 }
 
 @end

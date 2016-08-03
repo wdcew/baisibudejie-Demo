@@ -7,7 +7,11 @@
 //
 
 #import "GDTopic.h"
-
 @implementation GDTopic
+
++ (nullable NSDictionary<NSString *, id> *)modelContainerPropertyGenericClass
+{
+    return @{@"top_cmt":[GDCommentModel class]};
+}
 
 @end
