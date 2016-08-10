@@ -85,7 +85,7 @@
 {
     NSInteger index ;
     GDCustomButton *button;
-    if ([sender isKindOfClass:[GDCustomButton class]]) {//传递的参数为button
+    if ([sender isKindOfClass:[UIButton class]]) {//传递的参数为button
         button = sender;
         index = button.tag;
     } else {//传递的参数为index

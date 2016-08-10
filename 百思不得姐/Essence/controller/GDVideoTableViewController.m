@@ -10,14 +10,24 @@
 
 @implementation GDVideoTableViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
-        
-    }];
-    self.tableView.mj_header.automaticallyChangeAlpha = YES;
-//    [self.tableView.mj_header beginRefreshing];
+}
+- (void)loadNewTopics
+{
+    self.urlParameters = @{@"a":@"list", @"c":@"data",@"type":@videoType};
+    
+    [super loadNewTopics];
+}
+
+- (void)loadMoreTopics
+{
+    
+    self.urlParameters = self.maxid != nil ? @{@"a":@"list", @"c":@"data",@"type":@videoType,@"maxid":self.maxid}: @{@"a":@"list", @"c":@"data",@"type":@videoType};
+    
+    [super loadMoreTopics];
 }
 
 @end

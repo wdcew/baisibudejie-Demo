@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>DACircularProgress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -44,6 +49,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TZImagePickerController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UITableView+FDTemplateLayoutCell.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>YYModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,7 +72,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3C78D1552BD759D3254A324309C07E9A</key>
+		<key>34D4D7166CF22CD8D0E183F7B0A31557</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4E065C393D8FF7A1B5D8701E95241210</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,7 +87,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>636401BA454F446B8C317CD8363BA510</key>
+		<key>691928873A58840126EFA51E9B4E7F21</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,7 +102,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C3BF35AFAB8A3CB1AF183D0173C120D5</key>
+		<key>9474B426C996D3FB6BB5AC89AFAD8099</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9775596B3CA16905FC8F66DA8E2A3C67</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8C8219CD46AF5A37D015E5B8EF0B859</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,7 +122,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CE01589E6CDF553E18876EBFA344071E</key>
+		<key>E939D1F0B562C6BFB0A1F5888970B9D4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -8,28 +8,33 @@
 
 #import <UIKit/UIKit.h>
 #import "GDbaseCell.h"
+#import "GDTopic.h"
 
 @interface GDTopicCell : GDbaseCell
 /*头像*/
-@property(nonatomic,weak) UIImageView *iconView;
+@property(nonatomic, weak) UIImageView *iconView;
 /*内容*/
-@property(nonatomic,weak) UILabel *contentLabel;
+@property(nonatomic, weak) UILabel *contentLabel;
 /*用户名*/
-@property(nonatomic,weak) UILabel *nameLabel;
+@property(nonatomic, weak) UILabel *nameLabel;
 /*时间*/
-@property(nonatomic,weak) UILabel *timeLabel;
+@property(nonatomic, weak) UILabel *timeLabel;
 /*更多按钮*/
-@property(nonatomic,weak) UIButton *moreButton;
+@property(nonatomic, weak) UIButton *moreButton;
 
 /*最热评论lable*/
-@property(nonatomic,weak) UILabel *topcmtLabel;
+@property(nonatomic, weak) UILabel *topcmtLabel;
 /*赞*/
-@property(nonatomic,weak) UIButton *praiseButton;
+@property(nonatomic, weak) UIButton *praiseButton;
 /*踩*/
-@property(nonatomic,weak) UIButton *hateButton;
+@property(nonatomic, weak) UIButton *hateButton;
 /*转发*/
-@property(nonatomic,weak) UIButton *repostButton;
+@property(nonatomic, weak) UIButton *repostButton;
 /*评论*/
-@property(nonatomic,weak) UIButton *commentButton;
+@property(nonatomic, weak) UIButton *commentButton;
 
+
+/*该属性交给子类去设置，针对子类添加的 SubView，调整constrains，以便达到cell的自动适应*/
+@property (nonatomic, weak) UILabel *markLabel;
+@property(nonatomic, weak) MASConstraint *markLabelConstraint;
 @end

@@ -54,7 +54,6 @@
 //comment	string	帖子的被评论数量
 //jie_v	int	是否是百思不得姐的认证用户
 //status	string	帖子的状态（例：4）
-
 #import <UIKit/UIKit.h>
 #import "GDCommentModel.h"
 
@@ -69,4 +68,16 @@
 @property (nonatomic, strong) NSString *hate; //踩的数量
 
 @property (nonatomic, strong) NSArray<GDCommentModel *> *top_cmt; //最热评论
+
+@property (nonatomic)         int      subjectType;// model的类型，图片还是视频
+@property (nonatomic, strong) NSString *midContentH; //中间内容高度（图片，视频，声音等等）
+@property (nonatomic, strong) NSString *midContentW;//中间内容宽度
+
+@property (nonatomic, strong) NSString *smallImage; //中间内容（小图，根据网络状态决定 不同大小类型的图片）
+@property (nonatomic, strong) NSString *midImage; //中间内容（中等图
+@property (nonatomic, strong) NSString *bigImage; //中间内容（大图）
+@property (nonatomic, strong) NSString *playcount; //视频（音频）播放次数
+@property (nonatomic, strong) NSString *videotime; //视频 时间；
+@property (nonatomic, strong) NSString *voicetime; //音频 时间；
+
 @end

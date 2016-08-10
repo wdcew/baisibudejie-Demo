@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C411BC07A701D9093AD7563 /* libPods-百思不得姐Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1BC2B2FB72B31AEC0660A1 /* libPods-百思不得姐Tests.a */; };
-		607B8C63B18CB534E08A0F62 /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E503F18173BF98E05488EE /* libPods-百思不得姐.a */; };
+		34AD1CD97E269591B8FFD223 /* libPods-百思不得姐Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F359C5DD1CA0B03D92FA7C6F /* libPods-百思不得姐Tests.a */; };
+		37305840D64ACECC42880F9C /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E5CF293265281D6679F414 /* libPods-百思不得姐.a */; };
 		900E78371D45D9DD000157BF /* NSString+GDStringExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 900E78361D45D9DD000157BF /* NSString+GDStringExtension.m */; };
 		900E783A1D463B41000157BF /* GDSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 900E78391D463B41000157BF /* GDSettingCell.m */; };
 		901996311D3FA4F500D8F4D3 /* GDADModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 901996301D3FA4F500D8F4D3 /* GDADModel.m */; };
+		9025ECD31D543CC1004456C2 /* GDSubscribeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9025ECD21D543CC1004456C2 /* GDSubscribeModel.m */; };
 		902B70E31D41D63700FB6AD5 /* GDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 902B70E21D41D63700FB6AD5 /* GDSettingViewController.m */; };
 		9038EBD51D3F85A500F13684 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9038EB881D3F85A500F13684 /* AppDelegate.m */; };
 		9038EBD61D3F85A500F13684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9038EB891D3F85A500F13684 /* Assets.xcassets */; };
@@ -43,11 +44,20 @@
 		9038EBF11D3F85A500F13684 /* GDConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9038EBCE1D3F85A500F13684 /* GDConstant.m */; };
 		9038EBF21D3F85A500F13684 /* GDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9038EBD21D3F85A500F13684 /* GDTabBar.m */; };
 		9038EBF31D3F85A500F13684 /* GDTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9038EBD41D3F85A500F13684 /* GDTabbarController.m */; };
-		904340D41D51A766009A2D00 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904340D31D51A766009A2D00 /* File.swift */; };
+		904340D41D51A766009A2D00 /* subscribe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904340D31D51A766009A2D00 /* subscribe.swift */; };
 		904340D71D51D50F009A2D00 /* GDCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 904340D61D51D50F009A2D00 /* GDCommentModel.m */; };
 		904340DA1D51D51C009A2D00 /* GDUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 904340D91D51D51C009A2D00 /* GDUserModel.m */; };
+		904EF7EC1D582D460037F916 /* GDHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 904EF7EB1D582D460037F916 /* GDHTTPManager.m */; };
+		905401661D58B77100576FF4 /* GDBrowsePictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905401641D58B77100576FF4 /* GDBrowsePictureController.m */; };
+		905401671D58B77100576FF4 /* GDBrowsePictureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905401651D58B77100576FF4 /* GDBrowsePictureController.xib */; };
 		9055C9B81D4F737B002EA391 /* GDRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9055C9B71D4F737B002EA391 /* GDRefreshBackFooter.m */; };
 		907D07571D4A10B800DCC150 /* GDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907D07561D4A10B800DCC150 /* GDTableViewController.m */; };
+		9084F0901D546EF7003A9BB4 /* UIView+GDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9084F08F1D546EF7003A9BB4 /* UIView+GDView.m */; };
+		9084F0981D547058003A9BB4 /* GDPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9084F0971D547058003A9BB4 /* GDPictureView.xib */; };
+		9084F09B1D5470BC003A9BB4 /* GDPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9084F09A1D5470BC003A9BB4 /* GDPictureView.m */; };
+		9084F0A21D547E8C003A9BB4 /* GDPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9084F0A11D547E8C003A9BB4 /* GDPictureCell.m */; };
+		909933B71D5AC69F00381B88 /* GDCommentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 909933B51D5AC69F00381B88 /* GDCommentController.m */; };
+		909933B81D5AC69F00381B88 /* GDCommentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 909933B61D5AC69F00381B88 /* GDCommentController.xib */; };
 		909BC3321D34CE7D00AA16ED /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 909BC3311D34CE7D00AA16ED /* _____Tests.m */; };
 		909BC33D1D34CE7D00AA16ED /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 909BC33C1D34CE7D00AA16ED /* _____UITests.m */; };
 		909D26011D40B78200B92E17 /* GDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 909D25FF1D40B78200B92E17 /* GDWebViewController.m */; };
@@ -59,12 +69,16 @@
 		90B4E36E1D48FA7A00BB8C64 /* GDImageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B4E36D1D48FA7A00BB8C64 /* GDImageTableViewController.m */; };
 		90B4E3711D48FA9400BB8C64 /* GDTextTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B4E3701D48FA9400BB8C64 /* GDTextTableViewController.m */; };
 		90CA42411D4FBDC400A5F908 /* GDTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CA42401D4FBDC400A5F908 /* GDTopicCell.m */; };
+		90D0BCBA1D59AE1C00A64162 /* GDPhotosManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D0BCB91D59AE1C00A64162 /* GDPhotosManager.m */; };
 		90D21D881D4E52FA00A91334 /* GDRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D21D871D4E52FA00A91334 /* GDRefreshNormalHeader.m */; };
 		90D73B451D4A37E100F1B51B /* GDTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D73B441D4A37E100F1B51B /* GDTopic.m */; };
 		90D73B4A1D4A46DD00F1B51B /* GDArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D73B491D4A46DD00F1B51B /* GDArrayDataSource.m */; };
 		90E65A991D40A50A00F696AF /* GDSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E65A981D40A50A00F696AF /* GDSquareButton.m */; };
+		90F7D3A91D5750F800891247 /* GDMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F7D3A81D5750F800891247 /* GDMediaView.m */; };
+		90F7D3AB1D57510B00891247 /* GDMediaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F7D3AA1D57510B00891247 /* GDMediaView.xib */; };
+		90F7D3AE1D5753FE00891247 /* GDMediaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F7D3AD1D5753FE00891247 /* GDMediaCell.m */; };
 		90F94CC81D50C6B700443F81 /* GDbaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F94CC71D50C6B700443F81 /* GDbaseCell.m */; };
-		B4425132445C408D86EE3716 /* libPods-百思不得姐UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2F7B47B4F719D800036C64 /* libPods-百思不得姐UITests.a */; };
+		A94FFD0B21CF8B7C1045B411 /* libPods-百思不得姐UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C85D03ED1677E5D9D263ED58 /* libPods-百思不得姐UITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,13 +102,14 @@
 		30C02085DCA2CE47C129CFE3 /* Pods-百思不得姐Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐Tests/Pods-百思不得姐Tests.release.xcconfig"; sourceTree = "<group>"; };
 		620A0E08BA0C98B00A0056F0 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 		8326036C5D7FF074BE3C05F5 /* Pods-百思不得姐Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐Tests/Pods-百思不得姐Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8C1BC2B2FB72B31AEC0660A1 /* libPods-百思不得姐Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		900E78351D45D9DD000157BF /* NSString+GDStringExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GDStringExtension.h"; sourceTree = "<group>"; };
 		900E78361D45D9DD000157BF /* NSString+GDStringExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GDStringExtension.m"; sourceTree = "<group>"; };
 		900E78381D463B41000157BF /* GDSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDSettingCell.h; sourceTree = "<group>"; };
 		900E78391D463B41000157BF /* GDSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDSettingCell.m; sourceTree = "<group>"; };
 		9019962F1D3FA4F500D8F4D3 /* GDADModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDADModel.h; sourceTree = "<group>"; };
 		901996301D3FA4F500D8F4D3 /* GDADModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDADModel.m; sourceTree = "<group>"; };
+		9025ECD11D543CC1004456C2 /* GDSubscribeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDSubscribeModel.h; sourceTree = "<group>"; };
+		9025ECD21D543CC1004456C2 /* GDSubscribeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDSubscribeModel.m; sourceTree = "<group>"; };
 		902B70E11D41D63700FB6AD5 /* GDSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDSettingViewController.h; sourceTree = "<group>"; };
 		902B70E21D41D63700FB6AD5 /* GDSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDSettingViewController.m; sourceTree = "<group>"; };
 		9038EB871D3F85A500F13684 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -155,15 +170,30 @@
 		9038EBD31D3F85A500F13684 /* GDTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTabbarController.h; sourceTree = "<group>"; };
 		9038EBD41D3F85A500F13684 /* GDTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTabbarController.m; sourceTree = "<group>"; };
 		904340D01D51A731009A2D00 /* 百思不得姐-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "百思不得姐-Bridging-Header.h"; sourceTree = "<group>"; };
-		904340D31D51A766009A2D00 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		904340D31D51A766009A2D00 /* subscribe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = subscribe.swift; sourceTree = "<group>"; };
 		904340D51D51D50F009A2D00 /* GDCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCommentModel.h; sourceTree = "<group>"; };
 		904340D61D51D50F009A2D00 /* GDCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCommentModel.m; sourceTree = "<group>"; };
 		904340D81D51D51C009A2D00 /* GDUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUserModel.h; sourceTree = "<group>"; };
 		904340D91D51D51C009A2D00 /* GDUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUserModel.m; sourceTree = "<group>"; };
+		904EF7EA1D582D460037F916 /* GDHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHTTPManager.h; sourceTree = "<group>"; };
+		904EF7EB1D582D460037F916 /* GDHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDHTTPManager.m; sourceTree = "<group>"; };
+		905401631D58B77100576FF4 /* GDBrowsePictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDBrowsePictureController.h; sourceTree = "<group>"; };
+		905401641D58B77100576FF4 /* GDBrowsePictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDBrowsePictureController.m; sourceTree = "<group>"; };
+		905401651D58B77100576FF4 /* GDBrowsePictureController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDBrowsePictureController.xib; sourceTree = "<group>"; };
 		9055C9B61D4F737B002EA391 /* GDRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDRefreshBackFooter.h; sourceTree = "<group>"; };
 		9055C9B71D4F737B002EA391 /* GDRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDRefreshBackFooter.m; sourceTree = "<group>"; };
 		907D07551D4A10B800DCC150 /* GDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTableViewController.h; sourceTree = "<group>"; };
 		907D07561D4A10B800DCC150 /* GDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTableViewController.m; sourceTree = "<group>"; };
+		9084F08E1D546EF7003A9BB4 /* UIView+GDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+GDView.h"; path = "../baseClass/UIView+GDView.h"; sourceTree = "<group>"; };
+		9084F08F1D546EF7003A9BB4 /* UIView+GDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+GDView.m"; path = "../baseClass/UIView+GDView.m"; sourceTree = "<group>"; };
+		9084F0971D547058003A9BB4 /* GDPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDPictureView.xib; sourceTree = "<group>"; };
+		9084F0991D5470BC003A9BB4 /* GDPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPictureView.h; sourceTree = "<group>"; };
+		9084F09A1D5470BC003A9BB4 /* GDPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDPictureView.m; sourceTree = "<group>"; };
+		9084F0A01D547E8C003A9BB4 /* GDPictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPictureCell.h; sourceTree = "<group>"; };
+		9084F0A11D547E8C003A9BB4 /* GDPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDPictureCell.m; sourceTree = "<group>"; };
+		909933B41D5AC69F00381B88 /* GDCommentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCommentController.h; sourceTree = "<group>"; };
+		909933B51D5AC69F00381B88 /* GDCommentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCommentController.m; sourceTree = "<group>"; };
+		909933B61D5AC69F00381B88 /* GDCommentController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDCommentController.xib; sourceTree = "<group>"; };
 		909BC3141D34CE7D00AA16ED /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		909BC32D1D34CE7D00AA16ED /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		909BC3311D34CE7D00AA16ED /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
@@ -188,6 +218,8 @@
 		90B4E3701D48FA9400BB8C64 /* GDTextTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTextTableViewController.m; sourceTree = "<group>"; };
 		90CA423F1D4FBDC400A5F908 /* GDTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTopicCell.h; sourceTree = "<group>"; };
 		90CA42401D4FBDC400A5F908 /* GDTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTopicCell.m; sourceTree = "<group>"; };
+		90D0BCB81D59AE1C00A64162 /* GDPhotosManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPhotosManager.h; sourceTree = "<group>"; };
+		90D0BCB91D59AE1C00A64162 /* GDPhotosManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDPhotosManager.m; sourceTree = "<group>"; };
 		90D21D861D4E52FA00A91334 /* GDRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDRefreshNormalHeader.h; sourceTree = "<group>"; };
 		90D21D871D4E52FA00A91334 /* GDRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDRefreshNormalHeader.m; sourceTree = "<group>"; };
 		90D73B431D4A37E100F1B51B /* GDTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTopic.h; sourceTree = "<group>"; };
@@ -196,13 +228,19 @@
 		90D73B491D4A46DD00F1B51B /* GDArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDArrayDataSource.m; sourceTree = "<group>"; };
 		90E65A971D40A50A00F696AF /* GDSquareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDSquareButton.h; sourceTree = "<group>"; };
 		90E65A981D40A50A00F696AF /* GDSquareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDSquareButton.m; sourceTree = "<group>"; };
+		90F7D3A71D5750F800891247 /* GDMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMediaView.h; sourceTree = "<group>"; };
+		90F7D3A81D5750F800891247 /* GDMediaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMediaView.m; sourceTree = "<group>"; };
+		90F7D3AA1D57510B00891247 /* GDMediaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDMediaView.xib; sourceTree = "<group>"; };
+		90F7D3AD1D5753FE00891247 /* GDMediaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMediaCell.m; sourceTree = "<group>"; };
+		90F7D3AF1D575DB900891247 /* GDMediaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMediaCell.h; sourceTree = "<group>"; };
 		90F94CC61D50C6B700443F81 /* GDbaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDbaseCell.h; sourceTree = "<group>"; };
 		90F94CC71D50C6B700443F81 /* GDbaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDbaseCell.m; sourceTree = "<group>"; };
 		9A97EEC2DFF07A6FEB7F7A97 /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 		A472E276499FA180BB05483B /* Pods-百思不得姐UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐UITests/Pods-百思不得姐UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5E503F18173BF98E05488EE /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE2F7B47B4F719D800036C64 /* libPods-百思不得姐UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85D03ED1677E5D9D263ED58 /* libPods-百思不得姐UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E5CF293265281D6679F414 /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED47B72E69692BD0666D1B5D /* Pods-百思不得姐UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐UITests/Pods-百思不得姐UITests.release.xcconfig"; sourceTree = "<group>"; };
+		F359C5DD1CA0B03D92FA7C6F /* libPods-百思不得姐Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,7 +248,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607B8C63B18CB534E08A0F62 /* libPods-百思不得姐.a in Frameworks */,
+				37305840D64ACECC42880F9C /* libPods-百思不得姐.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +256,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C411BC07A701D9093AD7563 /* libPods-百思不得姐Tests.a in Frameworks */,
+				34AD1CD97E269591B8FFD223 /* libPods-百思不得姐Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,13 +264,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4425132445C408D86EE3716 /* libPods-百思不得姐UITests.a in Frameworks */,
+				A94FFD0B21CF8B7C1045B411 /* libPods-百思不得姐UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BBBEA143C34DF567A3191D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5CF293265281D6679F414 /* libPods-百思不得姐.a */,
+				F359C5DD1CA0B03D92FA7C6F /* libPods-百思不得姐Tests.a */,
+				C85D03ED1677E5D9D263ED58 /* libPods-百思不得姐UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		901E9BAD1D56EDA900CF64DB /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				90CA423F1D4FBDC400A5F908 /* GDTopicCell.h */,
+				90CA42401D4FBDC400A5F908 /* GDTopicCell.m */,
+				9084F0A01D547E8C003A9BB4 /* GDPictureCell.h */,
+				9084F0A11D547E8C003A9BB4 /* GDPictureCell.m */,
+				90F7D3AF1D575DB900891247 /* GDMediaCell.h */,
+				90F7D3AD1D5753FE00891247 /* GDMediaCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
 		9038EB861D3F85A500F13684 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,24 +325,17 @@
 		9038EB8D1D3F85A500F13684 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				909933B31D5AC64A00381B88 /* tableViewController */,
 				904340D01D51A731009A2D00 /* 百思不得姐-Bridging-Header.h */,
-				904340D31D51A766009A2D00 /* File.swift */,
-				9038EB8E1D3F85A500F13684 /* GDEssenceViewContrller.h */,
-				9038EB8F1D3F85A500F13684 /* GDEssenceViewContrller.m */,
-				907D07551D4A10B800DCC150 /* GDTableViewController.h */,
-				907D07561D4A10B800DCC150 /* GDTableViewController.m */,
+				904340D31D51A766009A2D00 /* subscribe.swift */,
 				90D73B481D4A46DD00F1B51B /* GDArrayDataSource.h */,
 				90D73B491D4A46DD00F1B51B /* GDArrayDataSource.m */,
-				90B4E3631D48FA2D00BB8C64 /* GDWholeTableViewController.h */,
-				90B4E3641D48FA2D00BB8C64 /* GDWholeTableViewController.m */,
-				90B4E3661D48FA4C00BB8C64 /* GDVideoTableViewController.h */,
-				90B4E3671D48FA4C00BB8C64 /* GDVideoTableViewController.m */,
-				90B4E3691D48FA6B00BB8C64 /* GDVoiceTableViewController.h */,
-				90B4E36A1D48FA6B00BB8C64 /* GDVoiceTableViewController.m */,
-				90B4E36C1D48FA7A00BB8C64 /* GDImageTableViewController.h */,
-				90B4E36D1D48FA7A00BB8C64 /* GDImageTableViewController.m */,
-				90B4E36F1D48FA9400BB8C64 /* GDTextTableViewController.h */,
-				90B4E3701D48FA9400BB8C64 /* GDTextTableViewController.m */,
+				905401631D58B77100576FF4 /* GDBrowsePictureController.h */,
+				905401641D58B77100576FF4 /* GDBrowsePictureController.m */,
+				905401651D58B77100576FF4 /* GDBrowsePictureController.xib */,
+				909933B41D5AC69F00381B88 /* GDCommentController.h */,
+				909933B51D5AC69F00381B88 /* GDCommentController.m */,
+				909933B61D5AC69F00381B88 /* GDCommentController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -297,6 +351,8 @@
 				904340D61D51D50F009A2D00 /* GDCommentModel.m */,
 				904340D81D51D51C009A2D00 /* GDUserModel.h */,
 				904340D91D51D51C009A2D00 /* GDUserModel.m */,
+				9025ECD11D543CC1004456C2 /* GDSubscribeModel.h */,
+				9025ECD21D543CC1004456C2 /* GDSubscribeModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -304,12 +360,17 @@
 		9038EB931D3F85A500F13684 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				9038EB941D3F85A500F13684 /* GDEssenceView.h */,
-				9038EB951D3F85A500F13684 /* GDEssenceView.m */,
+				901E9BAD1D56EDA900CF64DB /* cell */,
 				90B4E3601D48A85700BB8C64 /* GDTitleView.h */,
 				90B4E3611D48A85700BB8C64 /* GDTitleView.m */,
-				90CA423F1D4FBDC400A5F908 /* GDTopicCell.h */,
-				90CA42401D4FBDC400A5F908 /* GDTopicCell.m */,
+				90F7D3AA1D57510B00891247 /* GDMediaView.xib */,
+				90F7D3A71D5750F800891247 /* GDMediaView.h */,
+				90F7D3A81D5750F800891247 /* GDMediaView.m */,
+				9084F0971D547058003A9BB4 /* GDPictureView.xib */,
+				9084F0991D5470BC003A9BB4 /* GDPictureView.h */,
+				9084F09A1D5470BC003A9BB4 /* GDPictureView.m */,
+				9038EB941D3F85A500F13684 /* GDEssenceView.h */,
+				9038EB951D3F85A500F13684 /* GDEssenceView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -453,6 +514,7 @@
 		9038EBC41D3F85A500F13684 /* ohter */ = {
 			isa = PBXGroup;
 			children = (
+				904EF7E91D582D290037F916 /* Singleton */,
 				9038EBC51D3F85A500F13684 /* baseClass */,
 				9038EBCA1D3F85A500F13684 /* extention */,
 				9038EBD01D3F85A500F13684 /* tabbarController */,
@@ -483,6 +545,8 @@
 		9038EBCA1D3F85A500F13684 /* extention */ = {
 			isa = PBXGroup;
 			children = (
+				9084F08E1D546EF7003A9BB4 /* UIView+GDView.h */,
+				9084F08F1D546EF7003A9BB4 /* UIView+GDView.m */,
 				9038EBCB1D3F85A500F13684 /* UIView+GDViewExtension.h */,
 				9038EBCC1D3F85A500F13684 /* UIView+GDViewExtension.m */,
 				900E78351D45D9DD000157BF /* NSString+GDStringExtension.h */,
@@ -502,6 +566,38 @@
 			path = tabbarController;
 			sourceTree = "<group>";
 		};
+		904EF7E91D582D290037F916 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				904EF7EA1D582D460037F916 /* GDHTTPManager.h */,
+				904EF7EB1D582D460037F916 /* GDHTTPManager.m */,
+				90D0BCB81D59AE1C00A64162 /* GDPhotosManager.h */,
+				90D0BCB91D59AE1C00A64162 /* GDPhotosManager.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		909933B31D5AC64A00381B88 /* tableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9038EB8E1D3F85A500F13684 /* GDEssenceViewContrller.h */,
+				9038EB8F1D3F85A500F13684 /* GDEssenceViewContrller.m */,
+				907D07551D4A10B800DCC150 /* GDTableViewController.h */,
+				907D07561D4A10B800DCC150 /* GDTableViewController.m */,
+				90B4E3631D48FA2D00BB8C64 /* GDWholeTableViewController.h */,
+				90B4E3641D48FA2D00BB8C64 /* GDWholeTableViewController.m */,
+				90B4E3661D48FA4C00BB8C64 /* GDVideoTableViewController.h */,
+				90B4E3671D48FA4C00BB8C64 /* GDVideoTableViewController.m */,
+				90B4E3691D48FA6B00BB8C64 /* GDVoiceTableViewController.h */,
+				90B4E36A1D48FA6B00BB8C64 /* GDVoiceTableViewController.m */,
+				90B4E36C1D48FA7A00BB8C64 /* GDImageTableViewController.h */,
+				90B4E36D1D48FA7A00BB8C64 /* GDImageTableViewController.m */,
+				90B4E36F1D48FA9400BB8C64 /* GDTextTableViewController.h */,
+				90B4E3701D48FA9400BB8C64 /* GDTextTableViewController.m */,
+			);
+			name = tableViewController;
+			sourceTree = "<group>";
+		};
 		909BC30B1D34CE7D00AA16ED = {
 			isa = PBXGroup;
 			children = (
@@ -510,7 +606,7 @@
 				909BC33B1D34CE7D00AA16ED /* 百思不得姐UITests */,
 				909BC3151D34CE7D00AA16ED /* Products */,
 				F8EF6B49DE8ADC8520D43883 /* Pods */,
-				968A353DD8214FABDF6FAE40 /* Frameworks */,
+				0BBBEA143C34DF567A3191D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -540,16 +636,6 @@
 				909BC33E1D34CE7D00AA16ED /* Info.plist */,
 			);
 			path = "百思不得姐UITests";
-			sourceTree = "<group>";
-		};
-		968A353DD8214FABDF6FAE40 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D5E503F18173BF98E05488EE /* libPods-百思不得姐.a */,
-				8C1BC2B2FB72B31AEC0660A1 /* libPods-百思不得姐Tests.a */,
-				DE2F7B47B4F719D800036C64 /* libPods-百思不得姐UITests.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F8EF6B49DE8ADC8520D43883 /* Pods */ = {
@@ -680,10 +766,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90F7D3AB1D57510B00891247 /* GDMediaView.xib in Resources */,
 				9038EBE81D3F85A500F13684 /* GDNewViewController.xib in Resources */,
 				9038EBE51D3F85A500F13684 /* GDTableViewCell.xib in Resources */,
+				905401671D58B77100576FF4 /* GDBrowsePictureController.xib in Resources */,
 				9038EBD71D3F85A500F13684 /* LaunchScreen.storyboard in Resources */,
 				909D26021D40B78200B92E17 /* GDWebViewController.xib in Resources */,
+				9084F0981D547058003A9BB4 /* GDPictureView.xib in Resources */,
+				909933B81D5AC69F00381B88 /* GDCommentController.xib in Resources */,
 				9038EBD61D3F85A500F13684 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -833,10 +923,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				902B70E31D41D63700FB6AD5 /* GDSettingViewController.m in Sources */,
+				9025ECD31D543CC1004456C2 /* GDSubscribeModel.m in Sources */,
 				9038EBDB1D3F85A500F13684 /* GDFriendViewController.m in Sources */,
 				9038EBF01D3F85A500F13684 /* UIView+GDViewExtension.m in Sources */,
 				9038EBD51D3F85A500F13684 /* AppDelegate.m in Sources */,
 				9055C9B81D4F737B002EA391 /* GDRefreshBackFooter.m in Sources */,
+				9084F0901D546EF7003A9BB4 /* UIView+GDView.m in Sources */,
 				9038EBDF1D3F85A500F13684 /* main.m in Sources */,
 				9038EBEC1D3F85A500F13684 /* GDLoginTextField.m in Sources */,
 				90D73B451D4A37E100F1B51B /* GDTopic.m in Sources */,
@@ -844,13 +936,16 @@
 				9038EBE31D3F85A500F13684 /* GDMeView.m in Sources */,
 				907D07571D4A10B800DCC150 /* GDTableViewController.m in Sources */,
 				9038EBF21D3F85A500F13684 /* GDTabBar.m in Sources */,
+				90D0BCBA1D59AE1C00A64162 /* GDPhotosManager.m in Sources */,
 				90B4E3711D48FA9400BB8C64 /* GDTextTableViewController.m in Sources */,
 				9038EBDA1D3F85A500F13684 /* GDEssenceView.m in Sources */,
 				9038EBD81D3F85A500F13684 /* GDEssenceViewContrller.m in Sources */,
+				90F7D3A91D5750F800891247 /* GDMediaView.m in Sources */,
 				9038EBE91D3F85A500F13684 /* GDNewModel.m in Sources */,
 				9038EBE71D3F85A500F13684 /* GDNewViewController.m in Sources */,
 				9038EBEA1D3F85A500F13684 /* GDCustomButton.m in Sources */,
 				90B4E3681D48FA4C00BB8C64 /* GDVideoTableViewController.m in Sources */,
+				904EF7EC1D582D460037F916 /* GDHTTPManager.m in Sources */,
 				904340DA1D51D51C009A2D00 /* GDUserModel.m in Sources */,
 				9038EBD91D3F85A500F13684 /* GDEssenceModel.m in Sources */,
 				90B4E36E1D48FA7A00BB8C64 /* GDImageTableViewController.m in Sources */,
@@ -859,22 +954,27 @@
 				90E65A991D40A50A00F696AF /* GDSquareButton.m in Sources */,
 				9038EBEF1D3F85A500F13684 /* GDNavigationController.m in Sources */,
 				900E783A1D463B41000157BF /* GDSettingCell.m in Sources */,
+				9084F0A21D547E8C003A9BB4 /* GDPictureCell.m in Sources */,
 				904340D71D51D50F009A2D00 /* GDCommentModel.m in Sources */,
 				909D26011D40B78200B92E17 /* GDWebViewController.m in Sources */,
 				9038EBED1D3F85A500F13684 /* GDNewView.m in Sources */,
 				9038EBE01D3F85A500F13684 /* GDMeViewController.m in Sources */,
-				904340D41D51A766009A2D00 /* File.swift in Sources */,
+				904340D41D51A766009A2D00 /* subscribe.swift in Sources */,
 				9038EBDD1D3F85A500F13684 /* GDFriendView.m in Sources */,
 				90B4E3651D48FA2D00BB8C64 /* GDWholeTableViewController.m in Sources */,
+				909933B71D5AC69F00381B88 /* GDCommentController.m in Sources */,
 				90D21D881D4E52FA00A91334 /* GDRefreshNormalHeader.m in Sources */,
 				90B4E3621D48A85700BB8C64 /* GDTitleView.m in Sources */,
 				9038EBF11D3F85A500F13684 /* GDConstant.m in Sources */,
 				9038EBE61D3F85A500F13684 /* GDLoginRegisterViewController.m in Sources */,
+				905401661D58B77100576FF4 /* GDBrowsePictureController.m in Sources */,
 				9038EBEE1D3F85A500F13684 /* GDBaseViewController.m in Sources */,
 				90F94CC81D50C6B700443F81 /* GDbaseCell.m in Sources */,
+				9084F09B1D5470BC003A9BB4 /* GDPictureView.m in Sources */,
 				90D73B4A1D4A46DD00F1B51B /* GDArrayDataSource.m in Sources */,
 				9038EBE21D3F85A500F13684 /* GDFooterView.m in Sources */,
 				901996311D3FA4F500D8F4D3 /* GDADModel.m in Sources */,
+				90F7D3AE1D5753FE00891247 /* GDMediaCell.m in Sources */,
 				9038EBDC1D3F85A500F13684 /* GDFriendModel.m in Sources */,
 				9038EBF31D3F85A500F13684 /* GDTabbarController.m in Sources */,
 				9038EBE41D3F85A500F13684 /* GDTableViewCell.m in Sources */,
@@ -1018,6 +1118,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "百思不得姐/ohter/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wdcew.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1035,6 +1136,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PREFIX_HEADER = "百思不得姐/ohter/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wdcew.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";

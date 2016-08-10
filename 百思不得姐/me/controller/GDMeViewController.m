@@ -122,7 +122,7 @@
 {
     self.modelArray = [[NSMutableArray alloc] init];
     
-    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    GDHTTPManager  *manager = [GDHTTPManager  shareManger];
     NSDictionary *paramDict = @{@"a":@"square",@"c":@"topic"};
     
     [manager GET:@"http://api.budejie.com/api/api_open.php"

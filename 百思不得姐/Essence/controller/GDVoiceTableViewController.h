@@ -9,5 +9,4 @@
 #import <UIKit/UIKit.h>
 #import "GDTableViewController.h"
 @interface GDVoiceTableViewController : GDTableViewController
-
 @end

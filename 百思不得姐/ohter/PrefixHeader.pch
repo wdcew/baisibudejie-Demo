@@ -32,11 +32,13 @@
 
 #import "UIView+GDViewExtension.h"
 #import "NSString+GDStringExtension.h"
+#import "UIView+GDView.h"
 
 #import "GDConstant.h"
 #import "GDNavigationController.h"
 #import "GDBaseViewController.h"
 #import "GDCustomButton.h"
+#import "GDHTTPManager.h"
 
 #import "MJRefresh.h"
 #import "SVProgressHUD.h"
@@ -45,12 +47,17 @@
 #import "AFNetworking.h"
 #import "UIImageView+WebCache.h"
 #import "UIButton+WebCache.h"
+#import "UITableView+FDTemplateLayoutCell.h"
+#import "DACircularProgressView.h"
+#import "TZImagePickerController.h"
 
 ////define this constant if you want to use Masonry without the 'mas_' prefix
 //#define MAS_SHORTHAND
 //
 ////define this constant if you want to enable auto-boxing for default syntax
 //#define MAS_SHORTHAND_GLOBALS
+
+#define iOS(X) ([UIDevice currentDevice].systemVersion.floatValue >= (X))
 
 #define GDColorA(r,g,b,a) [UIColor colorWithRed:(r)/255.00 green:(g)/255.00 blue:(b)/255.00 alpha:(a)]
 #define GDColor(R,G,B) GDColorA((R),(G),(B),1)

@@ -7,15 +7,27 @@
 //
 
 #import "GDTopicCell.h"
-#import "GDTopic.h"
 
 #define margin 10
 @interface GDTopicCell ()
-@property (nonatomic, weak) UILabel *markLabel;
 @end
 
 @implementation GDTopicCell
 #pragma mark override method
+
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (self) {
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
+        
+        [self addCustomView];
+        [self TopViewConstraints];
+        [self bottomViewConstraints];
+    }
+    return self;
+}
+
 - (void)configurationForItem:(GDTopic *)item
 {
     self.nameLabel.text = item.name;
@@ -26,36 +38,26 @@
     if (![item.top_cmt count]) { //没有最热评论，隐藏
         self.topcmtLabel.hidden = YES;
         self.markLabel.hidden = YES;
+        //将其 text赋值为nil,这样label 的高度会变为0！（重要）
+        self.markLabel.text = nil;
+        self.topcmtLabel.text = nil;
     } else { //含有最热评论，显示topLabel
+        self.topcmtLabel.text = item.top_cmt[0].content;
+        self.markLabel.text = @"最热评论";
         self.markLabel.hidden = NO;
         self.topcmtLabel.hidden = NO;
-        self.topcmtLabel.text = item.top_cmt[0].content;
+        
     }
 }
-
-/**
- *  重写该method的 是为了将cell的 height 减去 margin以达到cell之间有 分隔距离 。
- *
+/*
  *  @param frame 该 frame的 height会被 减去 GDcellMargin;
  */
 - (void)setFrame:(CGRect)frame
 {
-    frame.size.height = frame.size.height - GDcellMargin;
+    frame.size.height = frame.size.height - 10;
     [super setFrame:frame];
 }
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
-{
-    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self) {
-        self.selectionStyle = UITableViewCellSelectionStyleNone;
-        
-        [self addCustomView];
-        [self TopViewConstraints];
-        [self bottomViewconstraints];
-    }
-    return self;
-}
 
 #pragma mark
 - (void)addCustomView
@@ -63,52 +65,49 @@
     /*添加顶部 View*/
       /*icon*/
     UIImageView *icon = [[UIImageView alloc] init];
-    [self addSubview:icon];
+    [self.contentView addSubview:icon];
     self.iconView = icon;
       /*用户名label*/
     UILabel *name = [[UILabel alloc] init];
+    
     name.font = [UIFont systemFontOfSize:13];
-    [self addSubview:name];
+    [self.contentView addSubview:name];
     self.nameLabel = name;
       /*时间label*/
     UILabel *time = [[UILabel alloc] init];
     time.font = [UIFont systemFontOfSize:11];
-    [self addSubview:time];
+    [self.contentView addSubview:time];
     self.timeLabel = time;
       /*内容label*/
     UILabel *content = [[UILabel alloc] init];
     content.numberOfLines = 0;
+//    content.preferredMaxLayoutWidth = 200;
     content.font = [UIFont systemFontOfSize:13];
-    [self addSubview:content];
+    [self.contentView addSubview:content];
     self.contentLabel = content;
     
     UIButton *moreButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [moreButton setImage:[UIImage imageNamed:@"cellmorebtnnormal"] forState:UIControlStateNormal];
     [moreButton setImage:[UIImage imageNamed:@"cellmorebtnclick"] forState:UIControlStateHighlighted];
-    [self addSubview:moreButton];
+    [self.contentView addSubview:moreButton];
     self.moreButton = moreButton;
     
     
     /*添加底部 View*/
-        //最热评论ContentLabel
-    UILabel *topCmtView = [[UILabel alloc] init];
-    topCmtView.font = [UIFont systemFontOfSize:11];
-    topCmtView.numberOfLines = 0;
-    [self addSubview:topCmtView];
-    self.topcmtLabel = topCmtView;
     
         //最热评论 Label
     UILabel *marklabel = [[UILabel alloc] init];
     marklabel.text =@"最热评论";
     marklabel.font = [UIFont systemFontOfSize:12];
-    [self addSubview:marklabel];
+    [self.contentView addSubview:marklabel];
     self.markLabel = marklabel;
-    [marklabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(topCmtView.mas_left);
-        make.bottom.equalTo(topCmtView.mas_top);
     
-    }];
-    
+        //最热评论ContentLabel
+    UILabel *topCmtView = [[UILabel alloc] init];
+    topCmtView.font = [UIFont systemFontOfSize:11];
+    topCmtView.numberOfLines = 0;
+    [self.contentView addSubview:topCmtView];
+    self.topcmtLabel = topCmtView;
     
         //赞button
     UIButton *praise = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -135,27 +134,27 @@
     for (UIButton *button in array) {
         button.titleLabel.font = [UIFont systemFontOfSize:13];
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-        [self addSubview:button];
+        [self.contentView addSubview:button];
     }
     
-    /*添加分割线 view*/
+//    /*添加分割线 view*/
         //content 与 button的分割线
     UIImageView *separateView = [[UIImageView alloc] init];
     separateView.image = [UIImage imageNamed:@"cell-content-line"];
-    [self addSubview:separateView];
+    [self.contentView addSubview:separateView];
     [separateView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.equalTo(self.commentButton.mas_top);
-        make.left.right.mas_equalTo(self);
+        make.left.right.mas_equalTo(self.contentView);
         make.height.equalTo(@1);
     }];
         //在各个 Button 中添加分割线，并且创建 create constraint
     [array enumerateObjectsUsingBlock:^(UIButton * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         UIImageView *separateView = [[UIImageView alloc] init];
         separateView.image = [UIImage imageNamed:@"cell-button-line"];
-        [self addSubview:separateView];
+        [self.contentView addSubview:separateView];
         [separateView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.right.equalTo(obj.mas_right);
-            make.bottom.equalTo(self.mas_bottom);
+            make.top.equalTo(obj.mas_top);
             make.width.equalTo(@1.5);
             make.height.equalTo(obj.mas_height);
         }];
@@ -164,12 +163,13 @@
 
 - (void)TopViewConstraints
 {
-    
+    //定位x,y坐标
+        // !cell自动适应高度所需 Constraint
     [self.iconView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.mas_top).offset(margin);
-        make.left.equalTo(self.mas_left).offset(margin);
-        make.width.mas_equalTo(35);
-        make.height.equalTo(self.iconView.mas_width);
+        make.top.equalTo(self.contentView.mas_top).offset(margin);
+        make.left.equalTo(self.contentView.mas_left).offset(margin);
+        make.height.equalTo(@30);
+        make.width.equalTo(@30);
     }];
     
     [self.nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -183,35 +183,52 @@
     }];
     
     [self.moreButton mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.right.equalTo(self.mas_right).offset(- margin);
-        make.top.equalTo(self.mas_top).offset(margin);
+        make.right.equalTo(self.contentView.mas_right).offset(- margin);
+        make.top.equalTo(self.iconView.mas_top);
         make.width.height.mas_equalTo(35);
+        make.height.equalTo(self.moreButton);
     }];
     
+        // !cell自动适应高度所需 Constraint
     [self.contentLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.iconView.mas_bottom).offset(margin);
-        make.left.equalTo(self.iconView.mas_left);
-        make.right.equalTo(self.moreButton.mas_right);
+        make.left.equalTo(self.contentView.mas_left).offset(margin);
+        make.right.equalTo(self.contentView.mas_right).offset(- margin);
+        //换行label 不能对其bottom进行约束
     }];
+    
 }
 
-- (void)bottomViewconstraints
+- (void)bottomViewConstraints
 {
+    
+//    最热评论taglabel constrains
+    [self.markLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self.iconView.mas_left);
+        // !cell自动适应高度所需 Constraint
+        self.markLabelConstraint = make.top.equalTo(self.contentLabel.mas_bottom).priorityLow();
+    }];
+    
+//    最热评论contentlabel constrains
+    [self.topcmtLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.markLabel.mas_bottom);
+        make.left.mas_equalTo(self.iconView);
+        make.right.mas_equalTo(self.moreButton);
+        //换行label,不能对其bottom进行约束
+    }];
+    
     //button Constrains
     NSArray *array = @[self.praiseButton,self.hateButton,self.commentButton,self.repostButton];
     [array mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:1 leadSpacing:1 tailSpacing:1];
     
+        // !cell自动适应高度所需 Constraint
     [array mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self.mas_bottom);
+        make.top.equalTo(self.topcmtLabel.mas_bottom).offset(1);
         make.height.equalTo(@30);
+        make.bottom.equalTo(self.contentView.mas_bottom);
     }];
     
-    //最热评论label constrains
-    [self.topcmtLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(self).offset(margin);
-        make.right.mas_equalTo(self).offset(- margin);
-        make.bottom.equalTo(self.praiseButton.mas_top);
-    }];
+    
 }
 
 - (void)updateConstraints
@@ -220,5 +237,6 @@
 
     [super updateConstraints];
 }
+
 
 @end

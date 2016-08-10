@@ -10,9 +10,12 @@
 @interface GDArrayDataSource : NSObject <UITableViewDataSource>
 
 typedef void (^executeBlock)(id cell,id item);
+typedef NSString* (^CellTypePick)(NSMutableArray *items, NSIndexPath *indexPath);
 @property(nonatomic, copy) executeBlock block;
+@property(nonatomic, copy) CellTypePick pickCell;
+@property (nonatomic, strong)NSString *identifier;
 
-- (instancetype)initWithItmes:(NSMutableArray *)items executeBlock:(executeBlock)block ReuseIdentifier:(NSString *)identifier;
+- (instancetype)initWithItmes:(NSMutableArray *)items executeBlock:(executeBlock)block ReuseIdentifier:(CellTypePick)identifier;
 - (id)itemAtIndex:(NSUInteger)index;
 
 @end

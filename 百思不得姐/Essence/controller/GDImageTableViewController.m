@@ -15,4 +15,18 @@
     [super viewDidLoad];
 }
 
+- (void)loadNewTopics
+{
+    self.urlParameters = @{@"a":@"list", @"c":@"data",@"type":@pictureType};
+    
+    [super loadNewTopics];
+}
+
+- (void)loadMoreTopics
+{
+    
+    self.urlParameters = self.maxid != nil ? @{@"a":@"list", @"c":@"data",@"type":@pictureType,@"maxid":self.maxid}: @{@"a":@"list", @"c":@"data",@"type":@pictureType};
+    
+    [super loadMoreTopics];
+}
 @end

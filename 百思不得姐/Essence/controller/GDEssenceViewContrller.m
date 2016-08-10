@@ -162,5 +162,10 @@
     }
 }
 
+#pragma mark memory manager method
+- (void)didReceiveMemoryWarning
+{
+    
+}
 
 @end

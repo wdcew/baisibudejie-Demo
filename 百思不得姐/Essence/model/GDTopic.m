@@ -9,6 +9,17 @@
 #import "GDTopic.h"
 @implementation GDTopic
 
++ (nullable NSDictionary<NSString *, id> *)modelCustomPropertyMapper;
+{
+    return @{@"subjectType":@"type",
+             @"midContentH":@"height",
+             @"midContentW":@"width",
+             @"smallImage":@"image0",
+             @"midImage":@"image2",
+             @"bigImage":@"image1"
+             };
+}
+
 + (nullable NSDictionary<NSString *, id> *)modelContainerPropertyGenericClass
 {
     return @{@"top_cmt":[GDCommentModel class]};

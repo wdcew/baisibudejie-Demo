@@ -3,6 +3,10 @@
 //
 
 
+#import "GDbaseCell.h"
+#import "GDTopic.h"
+#import "GDSubscribeModel.h"
+
 #import "UIView+GDViewExtension.h"
 #import "NSString+GDStringExtension.h"
 

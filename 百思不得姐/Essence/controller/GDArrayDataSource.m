@@ -9,19 +9,18 @@
 #import "GDArrayDataSource.h"
 @interface GDArrayDataSource ()
 @property (nonatomic, strong)NSMutableArray *items;
-@property (nonatomic, strong)NSString *identifier;
 @end
 
 @implementation GDArrayDataSource
 
 
-- (instancetype)initWithItmes:(NSMutableArray *)items executeBlock:(executeBlock)block ReuseIdentifier:(NSString *)identifier
+- (instancetype)initWithItmes:(NSMutableArray *)items executeBlock:(executeBlock)block ReuseIdentifier:(CellTypePick)identifier
 {
     self = [super init];
     if (self) {
         self.items = items;
         self.block = block;
-        self.identifier = identifier;
+        self.pickCell = identifier;
     }
     return self;
     
@@ -36,6 +35,9 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
+    self.identifier = self.pickCell(self.items,indexPath);
+    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:self.identifier forIndexPath:indexPath];
     if (cell) {
         id item = self.items[indexPath.row];

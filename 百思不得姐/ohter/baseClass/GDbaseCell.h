@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "GDbaseCell.h"
 @interface GDbaseCell : UITableViewCell
 
 - (void)ImageForView:(UIImageView *)imageView WithUrlStr:(NSString *)urlStr;

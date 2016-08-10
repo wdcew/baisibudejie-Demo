@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GDMediaView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g7g-Wg-DFW">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOM-gf-8Rh">
+                    <rect key="frame" x="336.5" y="357" width="38.5" height="18"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.3703811233108108" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2000次播放量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upD-Tj-He3">
+                    <rect key="frame" x="278" y="0.0" width="96.5" height="18"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.36697635135135137" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video-play" translatesAutoresizingMaskIntoConstraints="NO" id="cKf-xX-0EI">
+                    <rect key="frame" x="152" y="152" width="71" height="71"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="71" id="dxB-dT-BzI"/>
+                        <constraint firstAttribute="width" constant="71" id="m4p-rU-Q0K"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="AOM-gf-8Rh" secondAttribute="bottom" id="1S0-Rd-fBG"/>
+                <constraint firstAttribute="trailing" secondItem="g7g-Wg-DFW" secondAttribute="trailing" id="7I0-T8-uEU"/>
+                <constraint firstAttribute="trailing" secondItem="AOM-gf-8Rh" secondAttribute="trailing" id="DIi-Jr-dlk"/>
+                <constraint firstAttribute="bottom" secondItem="g7g-Wg-DFW" secondAttribute="bottom" id="FzO-o4-JcP"/>
+                <constraint firstItem="upD-Tj-He3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Joc-9h-wHs"/>
+                <constraint firstItem="cKf-xX-0EI" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="NmA-vr-Q3z"/>
+                <constraint firstItem="cKf-xX-0EI" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Tz4-lA-hsW"/>
+                <constraint firstItem="g7g-Wg-DFW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="aPq-Q5-nB9"/>
+                <constraint firstItem="g7g-Wg-DFW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cvV-77-agP"/>
+                <constraint firstAttribute="trailing" secondItem="upD-Tj-He3" secondAttribute="trailing" id="vme-3F-97N"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentView" destination="g7g-Wg-DFW" id="uqk-Yc-o9W"/>
+                <outlet property="playCount" destination="upD-Tj-He3" id="Lxn-jB-L5B"/>
+                <outlet property="statusView" destination="cKf-xX-0EI" id="AUx-6R-WOF"/>
+                <outlet property="timeLabel" destination="AOM-gf-8Rh" id="dow-rX-mij"/>
+            </connections>
+            <point key="canvasLocation" x="236.5" y="212.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="video-play" width="71" height="71"/>
+    </resources>
+</document>
